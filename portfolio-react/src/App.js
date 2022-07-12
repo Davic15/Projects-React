@@ -1,10 +1,9 @@
-
+import "./App.css";
+import { RoutesPortfolio } from "./Router/RoutesPortfolio";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola</h1>
-    </div>
+    <RoutesPortfolio />
   );
 }
 
