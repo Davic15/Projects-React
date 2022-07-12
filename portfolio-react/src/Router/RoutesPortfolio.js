@@ -1,24 +1,28 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
-import { About } from '../Components/About/About';
-import { Introduction } from '../Components/Introduction/Introduction';
 import { Footer } from '../Components/Layout/Footer';
 import { Header } from '../Components/Layout/Header';
-import { Services } from '../Components/Services/Services';
-import { Work } from '../Components/Work/Work';
+import { Error } from '../Components/Error/Error';
+import { Main } from '../Components/Main/Main';
+import { Project } from '../Components/Projects/Project';
 
 export const RoutesPortfolio = () => {
     return (
         <BrowserRouter>
-        {/* Header goes here */}
-        <Header />
-        {/* Content */}
-        <Introduction />
-        <Services />
-        <About />
-        <Work />
-        {/* Footer */}
-        <Footer />
+            {/* Header goes here */}
+            <Header />
+            
+            {/* Content */}
+            <Routes>
+                <Route path="/" element={<Navigate to="/home" />} />
+                <Route path="/home" element={<Main />} />
+                <Route path="/project" element={<Project />} />
+                <Route path="*" element={<Error />} />
+            </Routes>
+
+            {/* Footer */}
+            <Footer />
+
         </BrowserRouter>
     )
 }

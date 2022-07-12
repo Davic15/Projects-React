@@ -133,7 +133,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 /* header */
-/*
+
 header {
     display: flex;
     justify-content: space-between;
@@ -237,7 +237,7 @@ header {
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
-*/
+
 /*  Intro section  */
 
 .intro {
@@ -411,7 +411,7 @@ header {
 
 
 /* footer */
-/*
+
 .footer {
     background: #111;
     color: var(--clr-accent);
@@ -453,4 +453,4 @@ header {
 
 .social-list__link {
     padding: .5em;
-}*/
+}

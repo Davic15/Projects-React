@@ -1,30 +1,29 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import classes from './Header.module.css';
 
 export const Header = () => {
+
+    const handleAddClass = (e) => {
+        document.body.classList.toggle("nav-open")
+    }
+
+    const handleRemoveClass = (e) => {
+        document.body.classList.remove("nav-open");
+    }
+
     return (
         <header>
-            <div className={classes.logo}>
-                <img src="/img/logo.png" alt="logo" />
+            <div className="logo">
+                <img src="./img/logo.png" alt="logo" />
             </div>
-            <button className={classes["nav-toggle"]} aria-label="toggle navigation">
-                <span className={classes.hamburger}></span>
+            <button className="nav-toggle" aria-label="toggle navigation" onClick={ handleAddClass }>
+                <span className="hamburger"></span>
             </button>
-            <nav className={classes.nav}>
-                <ul className={classes.nav__list}>
-                    <li className={classes.nav__item}>
-                        <NavLink to="/home" className={classes.nav__link}>Home</NavLink>
-                    </li>
-                    <li className={classes.nav__item}>
-                        <NavLink to="/services" className={classes.nav__link}>Services</NavLink>
-                    </li>
-                    <li className={classes.nav__item}>
-                        <NavLink to="/about" className={classes.nav__link}>About</NavLink>
-                    </li>
-                    <li className={classes.nav__item}>
-                        <NavLink to="/work" className={classes.nav__link}>Work</NavLink>
-                    </li>
+            <nav className="nav">
+                <ul className="nav__list">
+                    <li className="nav__item"><a href="/home#home" className="nav__link" onClick={ handleRemoveClass }>Home</a></li>
+                    <li className="nav__item"><a href="/home#services" className="nav__link" onClick={ handleRemoveClass }>My Services</a></li>
+                    <li className="nav__item"><a href="/home#about" className="nav__link" onClick={ handleRemoveClass }>About me</a></li>
+                    <li className="nav__item"><a href="/home#work" className="nav__link" onClick={ handleRemoveClass }>My Work</a></li>
                 </ul>
             </nav>
         </header>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Introduction = () => {
+export const Home = () => {
     return (
         <section className="intro" id="home">
             <h1 className="section__title section__title--intro">
