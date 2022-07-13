@@ -1,4 +1,5 @@
 import React from 'react'
+import { Projects } from '../Projects/Projects'
 
 export const Work = () => {
     return (
@@ -8,6 +9,8 @@ export const Work = () => {
             
             <div className="portfolio">
 
+                <Projects />
+{/*
                 <a href="/work-items/portfolio-item-one.html" className="portfolio__item">
                     <img src="/img/portfolio-01.png" alt="yes no api project" className="portfolio__img" />
                 </a>
@@ -35,7 +38,7 @@ export const Work = () => {
 
                 <a href="/work-items/portfolio-item-six.html" className="portfolio__item">
                     <img src="/img/portfolio-06.png" alt="XKCD Comics API" className="portfolio__img" />
-                </a>
+                </a> */}
             </div>
         </section>
     )

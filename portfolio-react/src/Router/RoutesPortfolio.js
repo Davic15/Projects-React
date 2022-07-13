@@ -4,7 +4,7 @@ import { Footer } from '../Components/Layout/Footer';
 import { Header } from '../Components/Layout/Header';
 import { Error } from '../Components/Error/Error';
 import { Main } from '../Components/Main/Main';
-import { Project } from '../Components/Projects/Project';
+import { ProjectItems } from '../Components/ProjectItems/ProjectItems';
 
 export const RoutesPortfolio = () => {
     return (
@@ -16,7 +16,7 @@ export const RoutesPortfolio = () => {
             <Routes>
                 <Route path="/" element={<Navigate to="/home" />} />
                 <Route path="/home" element={<Main />} />
-                <Route path="/project" element={<Project />} />
+                <Route path="/project/:id" element={<ProjectItems />} />
                 <Route path="*" element={<Error />} />
             </Routes>
 
