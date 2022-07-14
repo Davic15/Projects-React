@@ -94,5 +94,21 @@ export const projects = [
         'technologies': 'The technologies used are: HTML, CSS, JavaScript (ES6), SuperAgent, REST API (XKCD).',
         'github': 'https://github.com/Davic15/Projects-JavaScript-Vanilla/tree/main/Project-09-XKCDAPI',
         'website': 'https://serene-froyo-75acd7.netlify.app/'
+    },
+    {
+        'id': '07',
+        'name': 'Note taking Application',
+        'img': '/img/portfolio-07.png',
+        'img_project': '/img/portfolio-07-item.png',
+        'alt': 'Note taking Application',
+        'url': '/projectitem/',
+        'title01': 'A',
+        'title02': 'Note taking',
+        'title03': 'Application',
+        'description01': 'This web application allows the user to take notes and save them in the browser.',
+        'description02': 'We can write, modifiy, delete, preview, etc our notes. Also we can add list, work with fonts, and other interesting stuffs.',
+        'technologies': 'The technologies used are: React.js, third party packages (showdown, react-split, react-mde, nanoid) and localStorage.',
+        'github': 'https://github.com/Davic15/Projects-React/tree/main/notes-app-v2',
+        'website': 'https://dapper-churros-b0843a.netlify.app/'
     }
 ];
