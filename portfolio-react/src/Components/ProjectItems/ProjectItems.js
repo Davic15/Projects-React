@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import '../../styles-items.css';
 import { projects } from '../../Data/projects';
+import useGATracker from '../../useGATracker';
 
 export const ProjectItems = () => {
+
+    useGATracker();
 
     const [project, setProject] = useState({});
     const params = useParams();
