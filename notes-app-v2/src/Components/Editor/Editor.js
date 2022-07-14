@@ -3,9 +3,7 @@ import ReactMde from 'react-mde';
 import Showdown from 'showdown';
 
 export const Editor = ({ currentNote, updateNote}) => {
-
     const [selectedTab, setSelectedTab] = useState('write');
-
     const converter = new Showdown.Converter({
         tables: true,
         simplifiedAutoLink: true,
