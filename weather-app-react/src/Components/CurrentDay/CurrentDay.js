@@ -18,7 +18,7 @@ export const CurrentDay = ({ currentWeekday, todaysFullDate, locationName, today
                 </p>
             </div>
             <div>
-                <img width="45" src={todaysImgUrl} alt="" />
+                <img width="45" src={todaysImgUrl} alt="weather icon" />
                 <h2 className="font-weight-bold mb-1">
                     <span>{todaysTemp}</span>°C
                 </h2>

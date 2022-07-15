@@ -7,10 +7,10 @@ import { CurrentDay } from '../CurrentDay/CurrentDay';
 import { CurrentDayDescription } from '../CurrentDayDescription/CurrentDayDescription';
 import { UpcomingDaysForecast } from '../UpcomingDaysForecast/UpcomingDaysForecast';
  
-
 import styles from './Forecast.module.css';
 
 export const Forecast = ({ forecast }) => {
+    console.log(forecast)
     return (
         <Container className={styles.box}>
             <Row>
@@ -21,7 +21,7 @@ export const Forecast = ({ forecast }) => {
                 </Col>
                 <Col xs={12} md={8} className='d-flex flex-column justify-content-between'>
                     <CurrentDayDescription forecast={forecast.currentDayDetails} />
-                    {/*<UpcomingDaysForecast days={forecast.upcomingDays} /> */}
+                    <UpcomingDaysForecast days={forecast.upcomingDays} />
                 </Col>
             </Row>
         </Container>
