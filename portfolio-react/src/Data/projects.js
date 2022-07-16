@@ -126,5 +126,21 @@ export const projects = [
         'technologies': 'The technologies used are: React.js and REST API (https://api.imgflip.com/get_memes)',
         'github': 'https://github.com/Davic15/Projects-React/tree/main/meme-generator-v2',
         'website': 'https://fascinating-seahorse-fdf5d6.netlify.app/'
-    }
+    },
+    {
+        'id': '09',
+        'name': 'The Weather App',
+        'img': '/img/portfolio-09.png',
+        'img_project': '/img/portfolio-09-item.png',
+        'alt': 'Weather API project',
+        'url': '/projectitem/',
+        'title01': 'Weather',
+        'title02': 'Forecast',
+        'title03': 'React.js Project',
+        'description01': 'Weather webapp is a beginner project that includes the weather API. The project consist to ask for the user input (city) and manipulate the data before showing to the user.',
+        'description02': 'It displays the current weather and the forecast for the next seven days.',
+        'technologies': 'The technologies used are: React.js, Bootstrap and REST API OpenWeatherMap.',
+        'github': 'https://github.com/Davic15/Projects-React/tree/main/weather-app-react',
+        'website': 'https://stellular-paprenjak-9b8ba7.netlify.app/'
+    },
 ];
