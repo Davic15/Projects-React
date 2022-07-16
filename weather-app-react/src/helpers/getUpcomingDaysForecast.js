@@ -1,12 +1,3 @@
-/*const getUpcomingDaysForecast = data => 
-    data.slice(1).map(day => ({
-        imgUrl: day.weather[0].icon,
-        maxTemp: Math.round(day.temp.max),
-        weekDay: new Date(day.dt * 1000).toLocaleString('en-GB', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}).substring(0, 3)
-    }));
-
-export default getUpcomingDaysForecast;*/
-
 const ICON_WEATHER_URL = 'http://openweathermap.org/img/wn/';
 
 const getUpcomingDaysForecast = (data) => {
@@ -18,6 +9,5 @@ const getUpcomingDaysForecast = (data) => {
         }))
     )
 }
-
 
 export default getUpcomingDaysForecast;
