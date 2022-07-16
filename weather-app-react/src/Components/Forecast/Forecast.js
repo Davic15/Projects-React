@@ -10,7 +10,6 @@ import { UpcomingDaysForecast } from '../UpcomingDaysForecast/UpcomingDaysForeca
 import styles from './Forecast.module.css';
 
 export const Forecast = ({ forecast }) => {
-    console.log(forecast)
     return (
         <Container className={styles.box}>
             <Row>

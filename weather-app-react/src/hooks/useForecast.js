@@ -19,7 +19,6 @@ export const useForecast = () => {
             const { data } = await axios(`${BASE_URL}`, {params: {q: location, units: 'metric', appid: WEATHER_API}})
             return data;
         } catch(err) {
-            console.log(err);
             setError('There is no such location.');
             setLoading(false);
         }
@@ -30,7 +29,6 @@ export const useForecast = () => {
             const { data } = await axios(`${BASE_URL}`, {params: {id: location.id, units: 'metric', appid: WEATHER_API}})
             return data;
         } catch (err) {
-            console.log(err)
             setError('Something went wrong');
             setLoading(false);
         }
@@ -39,10 +37,8 @@ export const useForecast = () => {
     const getNextDaysForecast = async (location) => {
         try {
             const { data } = await axios(`${BASE_URL_FORECAST}`, {params: {lon: location.coord.lon, lat: location.coord.lat, units: 'metric', appid: WEATHER_API}})
-            console.log(data)
             return data;
         } catch (err) {
-            console.log(err)
             setError('Something went wrong');
             setLoading(false);
         }
@@ -68,9 +64,6 @@ export const useForecast = () => {
 
         const dataForecast = await getNextDaysForecast(data)
         if(!dataForecast) return;
-
-        console.log(data.main)
-        console.log(data)
         gatherForecastData(data, dataForecast);
     }
 

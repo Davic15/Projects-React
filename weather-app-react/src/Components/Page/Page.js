@@ -29,5 +29,5 @@ export const Page = () => {
             {/* Forecast */}
             {forecast && <Forecast forecast={forecast} />}
         </Fragment>
-    )
-}
+    );
+};
