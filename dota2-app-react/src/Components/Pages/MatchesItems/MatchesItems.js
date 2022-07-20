@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react'
+import React from 'react'
 import styles from './MatchesItems.module.css'
 
 export const MatchesItems = (props) => {
