@@ -1,5 +1,5 @@
 .footer {
-    min-height: 40px;
+    min-height: 50px;
     line-height: 7px;
     text-align: center;
     font-size: 14px;
@@ -8,4 +8,14 @@
     border-top: 3px solid black;
     background: #233142;
     color: #f95959;
+
+    position: "fixed";
+          left: 0;
+          bottom: 0;
+          right: 0;
+}
+
+.footer a {
+    color: #e3e3e3;
+    text-decoration: none;
 }

@@ -8,7 +8,12 @@ export const Footer = () => {
 
     return (
         <footer className={styles.footer}>
-            Website designed and coded by <a href="" target="_blank" rel="noreferrer">Franklin Macias</a>. Copyright &copy; {year}.
+            <p>
+                Website designed and coded by <a href="https://davic15.github.io/home" target="_blank" rel="noreferrer">Franklin Macias.</a>
+            </p>
+            <p>
+            Copyright &copy; {year}.
+            </p>
         </footer>
     )
 }

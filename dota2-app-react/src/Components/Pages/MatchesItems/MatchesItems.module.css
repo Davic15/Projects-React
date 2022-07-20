@@ -1,0 +1,36 @@
+.inner-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.inner-section div {
+    width: 450px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+.inner-section h3 {
+    text-align: center;
+}
+
+.data,
+.team-radiant,
+.team-dire {
+    text-align: left;
+    color: #e3e3e3;
+    background-color: #233142;
+    border-bottom: 1px solid white;
+}
+
+.section p{
+    margin: 0;
+    padding-left: 10%;
+}
+
+.icon-hero {
+    display: flex;
+    justify-content: left;
+    padding-left: 10%;
+}
