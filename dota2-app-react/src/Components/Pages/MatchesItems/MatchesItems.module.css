@@ -34,3 +34,24 @@
     justify-content: left;
     padding-left: 10%;
 }
+
+.data p {
+    margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+    .inner-section {
+        /*display: flex;*/
+        text-align: center;
+        justify-content: center;
+        /*margin-bottom: 5px;*/
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .inner-section div {
+        width: 450px;
+        height: 240px;
+        margin-bottom: 0px;
+    }
+}

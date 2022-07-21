@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './MatchesItems.module.css'
 
+import {nanoid} from 'nanoid';
+
 export const MatchesItems = (props) => {
     const ICON_URL = 'http://api.opendota.com';
     const matches = props.matchesFetched;
@@ -13,14 +15,15 @@ export const MatchesItems = (props) => {
 
     return (
         <section className={styles.section}>
-            {matches.slice(97).map((data) => {
+            {matches.slice(90).map((data) => {
+                {console.log(data)}
                 return (
-                    <div key={matches.match_id} className={styles['inner-section']}>
+                    <div key={nanoid()} className={styles['inner-section']}>
                         <div className={styles['team-radiant']}>
                             <h3>Team Radiant</h3>
                             {data.players.slice(0, 5).map((player) => {
                                 return (
-                                    <span className={styles['icon-hero']}>
+                                    <span className={styles['icon-hero']} key={nanoid()}>
                                         <img src={`${ICON_URL + getIConHero(player.hero_id)[0]}`} alt={getIConHero(player.hero_id)[1]}></img>
                                         <p>{player.name || player.account_id}</p>
                                     </span>
@@ -32,7 +35,7 @@ export const MatchesItems = (props) => {
                             <h3>Team Dire</h3>
                             {data.players.slice(5, 10).map((player) => {
                                 return (
-                                    <span className={styles['icon-hero']}>
+                                    <span className={styles['icon-hero']} key={nanoid()}>
                                         <img src={`${ICON_URL + getIConHero(player.hero_id)[0]}`} alt={getIConHero(player.hero_id)[1]}></img>
                                         <p>{player.name || player.account_id}</p>
                                     </span>
@@ -40,37 +43,13 @@ export const MatchesItems = (props) => {
                             })}
                         </div>
 
-{/*
-                        <div className={styles['team-dire']}>
-                            <h3>Team Dire</h3>
-                            {data.players.map((player) => {
-                                return (
-                                    <>
-                                    { (player.lenth === 4) ? (
-                                        <div className={styles['icon-hero']}>
-                                        <img src={`${ICON_URL + getIConHero(player.hero_id)[0]}`} alt={getIConHero(player.hero_id)[1]}></img>
-                                        <p>{player.name || player.account_id}</p>
-                                    </div>
-
-                                    ) : (
-
-                                        <div className={styles['icon-hero']}>
-                                        <img src={`${ICON_URL + getIConHero(player.hero_id)[0]}`} alt={getIConHero(player.hero_id)[1]}></img>
-                                        <p>{player.name || player.account_id}</p>
-                                        </div>
-
-                                    )}
-                                    </>
-                                )
-                            })}
-                        </div>*/}
-
                         <div className={styles.data}>
                             <h3>Stats</h3>
                             <p>Average MMR: <strong>{data.average_mmr}</strong></p>
-                            <p>Delay: <strong>{data.delay}</strong></p>
+                            <p>Delay: <strong>{data.delay} sec</strong></p>
                             <p>Match ID: <strong>{data.match_id}</strong></p>
                             <p>Spectators: <strong>{data.spectators}</strong></p>
+                            <p>Game time: <strong>{Math.floor(data.game_time / 60)} min</strong></p>
                             <p>Radiant Score: <strong>{data.radiant_score}</strong></p>
                             <p>Dire Score: <strong>{data.dire_score}</strong></p>
                         </div>
