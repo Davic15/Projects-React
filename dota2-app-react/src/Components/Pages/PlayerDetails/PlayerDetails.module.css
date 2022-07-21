@@ -11,6 +11,15 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 35px 35px 35px 35px;
+    background-color: #455d7a;
+    border: 1px solid #e3e3e3;
+    height: 50px;
+
+}
+
+.stats strong,
+.stats p {
+    color: #e3e3e3;
 }
 
 .extra {
@@ -18,28 +27,72 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 35px 35px 35px 35px;
+    background-color: #455d7a;
+    border: 1px solid #e3e3e3;
+    height: 50px;
+}
+
+.extra strong,
+.extra p{
+    color: #e3e3e3;
 }
 
 .link {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    align-items: center;
     margin: 35px 35px 35px 35px;
+    background-color: #455d7a;
+    border: 1px solid #e3e3e3;
+    height: 50px;
+
+}
+
+.link a {
+    color: #e3e3e3;
+}
+
+.link a:hover {
+    color: #f95959;
 }
 
 @media only screen and (max-width: 768px) {
     .stats {
         flex-direction: column;
         justify-content: space-around;
+        height: auto;
     }
 
     .extra {
         flex-direction: column;
         justify-content: space-around;
+        height: auto;
     }
     
     .link {
         flex-direction: column;
         justify-content: space-around;
+        height: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .stats {
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .extra {
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+    
+    .link {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50px;
     }
 }
