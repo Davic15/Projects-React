@@ -16,7 +16,6 @@ export const MatchesItems = (props) => {
     return (
         <section className={styles.section}>
             {matches.slice(90).map((data) => {
-                {console.log(data)}
                 return (
                     <div key={nanoid()} className={styles['inner-section']}>
                         <div className={styles['team-radiant']}>

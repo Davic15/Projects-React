@@ -1,0 +1,9 @@
+.container {
+    text-align: center;
+}
+
+.select { 
+    max-width: 200px;
+    max-height: 60px;
+    border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+.container {
+    height: 100vh;
+}
+
+.image img {
+    border-radius: 25px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 35px 35px 35px 35px;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 35px 35px 35px 35px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 35px 35px 35px 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    .stats {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .extra {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .link {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

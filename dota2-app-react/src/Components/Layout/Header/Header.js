@@ -17,6 +17,9 @@ export const Header = () => {
                     <li>
                         <NavLink to='/matches' className={({isActive}) => isActive ? styles.active : ''}>Matches</NavLink>
                     </li>
+                    <li>
+                        <NavLink to='/players' className={({isActive}) => isActive ? styles.active : ''}>Players</NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>
