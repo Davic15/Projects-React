@@ -143,4 +143,36 @@ export const projects = [
         'github': 'https://github.com/Davic15/Projects-React/tree/main/weather-app-react',
         'website': 'https://stellular-paprenjak-9b8ba7.netlify.app/'
     },
+    {
+        'id': '10',
+        'name': 'Natural Events Tracker',
+        'img': '/img/portfolio-10.png',
+        'img_project': '/img/portfolio-10-item.png',
+        'alt': 'Natural Events Tracker Project',
+        'url': '/projectitem/',
+        'title01': 'Natural Events',
+        'title02': 'Tracker',
+        'title03': 'React.js Project',
+        'description01': 'NASA provides some interesting API projces. The project displays in the map a marker where a natural events is happening.',
+        'description02': 'It shows three kind of events: earthquakes (black marker), icebergs (blue marker) and wildfire (red marker).',
+        'technologies': 'The technologies used are: React.js, Pidgeon map and REST API EONET.',
+        'github': 'https://github.com/Davic15/Projects-React/tree/main/natural-events-tracker',
+        'website': 'https://darling-frangollo-714c4a.netlify.app/'
+    },
+    {
+        'id': '11',
+        'name': 'Dota 2',
+        'img': '/img/portfolio-11.png',
+        'img_project': '/img/portfolio-11-item.png',
+        'alt': 'Dota 2 project',
+        'url': '/projectitem/',
+        'title01': 'Dota 2',
+        'title02': 'Pro Analyzer',
+        'title03': 'React.js Project',
+        'description01': 'Using OpenDota API I got information related to Dota 2. The data gathered is huge, but I am just taking the most relevant to display.',
+        'description02': 'The most important options are: Matches (High MMR) or pro players and information about pro players. It is an SPA.',
+        'technologies': 'The technologies used are: React.js, React router and REST API OpenDota.',
+        'github': 'https://github.com/Davic15/Projects-React/tree/main/dota2-app-react',
+        'website': 'https://fantastic-hamster-709973.netlify.app/home'
+    },
 ];
