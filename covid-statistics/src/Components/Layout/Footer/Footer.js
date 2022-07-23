@@ -9,7 +9,7 @@ export const Footer = () => {
     return (
         <footer className={styles.footer}>
             <p>
-                Website designed and coded by <a href="https://davic15.github.io/home" target="_blank" rel="noreferrer">Franklin Macias.</a>
+                Website designed and coded by <a href="https://davic15.github.io/home" target="_blank" rel="noreferrer"><strong>Franklin Macias.</strong></a>
             </p>
             <p>
             Copyright &copy; {year}.
