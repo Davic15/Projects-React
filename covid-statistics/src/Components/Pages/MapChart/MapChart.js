@@ -14,14 +14,14 @@ export const MapChart = ({ setTooltipContent, covidCases, setCountryToShow }) =>
       const arrayInfo = new Array(countryAll.All.confirmed, countryAll.All.confirmed, countryAll.All.population, countryAll.All.abbreviation);
       return arrayInfo
     } else {
-      return;
+      return "";
     }
   }
 
   return (
     <>
       <ComposableMap data-tip="">
-        <ZoomableGroup>
+        <ZoomableGroup center={[5, 20]} zoom={1.2}>
           <Geographies geography="/features.json">
             {({ geographies }) =>
               geographies.map((geo) => (
