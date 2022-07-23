@@ -14,7 +14,7 @@ export const Map = ({ covidCases }) => {
     return (
         <div className={styles.container}>
             <MapChart setTooltipContent={setContent} covidCases={covidCases} setCountryToShow={setCountry} className={styles['map-chart']}/>
-            <ReactTooltip>
+            <ReactTooltip className={styles.tooltip}>
                 {content && (<>
                     <h3>{content}</h3>
                     <div>

@@ -19,3 +19,7 @@
 .flag {
     font-size: 2em;
 }
+
+.tooltip {
+    max-width: 95%;
+  }
