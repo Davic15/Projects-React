@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   ZoomableGroup,
   ComposableMap,
@@ -6,22 +6,15 @@ import {
   Geography,
 } from "react-simple-maps";
 
-import styles from "./MapChart.module.css";
-
 export const MapChart = ({ setTooltipContent, covidCases, setCountryToShow }) => {
 
-  const [newCountry, setNewCountry] = useState([])
-
   const getCountry = (countryName) => {
-    const country = Object.values(covidCases).find(cn => cn.All.country === countryName)
-    console.log(country)
-
-    if (country) {
-      const arrayInfo = new Array(country.All.confirmed, country.All.confirmed, country.All.population, country.All.abbreviation);
-      console.log(arrayInfo)
+    const countryAll = Object.values(covidCases).find(cn => cn.All.country === countryName)
+    if (countryAll) {
+      const arrayInfo = new Array(countryAll.All.confirmed, countryAll.All.confirmed, countryAll.All.population, countryAll.All.abbreviation);
       return arrayInfo
     } else {
-      return 'No data'
+      return;
     }
   }
 
@@ -43,6 +36,7 @@ export const MapChart = ({ setTooltipContent, covidCases, setCountryToShow }) =>
                   }}
                   onMouseLeave={() => {
                     setTooltipContent("");
+                    setCountryToShow("");
                   }}
                   style={{
                     default: {

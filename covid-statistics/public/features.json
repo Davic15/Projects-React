@@ -584,7 +584,7 @@
           "type": "Polygon",
           "arcs": [[445, 446]],
           "id": "KOR",
-          "properties": { "name": "South Korea" }
+          "properties": { "name": "Korea, South" }
         },
         {
           "type": "Polygon",
@@ -846,7 +846,7 @@
           "type": "Polygon",
           "arcs": [[565, -447, 566, -183]],
           "id": "PRK",
-          "properties": { "name": "North Korea" }
+          "properties": { "name": "Korea, North" }
         },
         {
           "type": "Polygon",
@@ -1116,7 +1116,7 @@
             [[-144, 702, -142, 703]]
           ],
           "id": "USA",
-          "properties": { "name": "United States" }
+          "properties": { "name": "US" }
         },
         {
           "type": "Polygon",

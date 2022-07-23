@@ -9,15 +9,23 @@ export const Map = ({ covidCases }) => {
     const [content, setContent] = useState("");
     const [country, setCountry] = useState("");
 
+    const handleClick = (e) => {
+        console.log(e)
+    }
+
     return (
         <div className={styles.container}>
-            <MapChart setTooltipContent={setContent} covidCases={covidCases} setCountryToShow={setCountry}/>
+            <MapChart setTooltipContent={setContent} covidCases={covidCases} setCountryToShow={setCountry} className={styles['map-chart']}/>
             <ReactTooltip>
-                <h3>{content}</h3>
-                <ReactCountryFlag countryCode={country.split(',')[3]} svg />
-                <p>Confirm Cases: {country.split(',')[0] || 'No Available data'}</p>
-                <p>Death: {country.split(',')[1] || 'No Available data'}</p>
-                <p>Population: {country.split(',')[2] || 'No Available data'}</p>
+                {content && (<>
+                    <h3>{content}</h3>
+                    <div>
+                        <ReactCountryFlag countryCode={country.split(',')[3]} svg className={styles.flag}/>
+                    </div>
+                    <p>Confirm Cases: {country.split(',')[0] || 'No data available'}</p>
+                    <p>Death: {country.split(',')[1] || 'No data available'}</p>
+                    <p>Population: {country.split(',')[2] || 'No data available'}</p>
+                </>)}
             </ReactTooltip>
         </div>
     )
