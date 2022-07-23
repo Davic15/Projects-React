@@ -12,10 +12,10 @@ export const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to='/home' className={({isActive}) => isActive ? styles.active : ''}>Home</NavLink>
+                        <NavLink to='/home' className={({isActive}) => isActive ? styles.active : ''}>World Map</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/matches' className={({isActive}) => isActive ? styles.active : ''}>Matches</NavLink>
+                        <NavLink to='/matches' className={({isActive}) => isActive ? styles.active : ''}>Information</NavLink>
                     </li>
                     <li>
                         <NavLink to='/players' className={({isActive}) => isActive ? styles.active : ''}>Players</NavLink>
