@@ -175,4 +175,20 @@ export const projects = [
         'github': 'https://github.com/Davic15/Projects-React/tree/main/dota2-app-react',
         'website': 'https://fantastic-hamster-709973.netlify.app/home'
     },
+    {
+        'id': '12',
+        'name': 'COVID-19 Statistics',
+        'img': '/img/portfolio-12.png',
+        'img_project': '/img/portfolio-12-item.png',
+        'alt': 'COVID-19 Statistics',
+        'url': '/projectitem/',
+        'title01': 'COVID-19',
+        'title02': 'Statistics',
+        'title03': 'React.js Project',
+        'description01': 'This project is basically a website to see different statistics about COVID-19, using free APIs.',
+        'description02': 'Some new packages were used to display data using a map with tooltip, or Stadistic charts.',
+        'technologies': 'The technologies used are: React.js, React router, React Country Flag, React Loader, React tooltip, Recharts and REST API Disease.sh and COVID-19 API.',
+        'github': 'https://github.com/Davic15/Projects-React/tree/main/covid-statistics',
+        'website': 'https://precious-halva-33d4b0.netlify.app/home'
+    }
 ];
