@@ -68,7 +68,7 @@ export const GraphData = () => {
                     <input type='submit' value='Search' className={styles.button} />
                 </div>
             </form>
-            <div className='graph'>
+            <div className={styles.graph}>
                 {isLoading && <Loader />}
                 {covidCases && <GraphDataCountry covidCases={covidCases} covidCasesDeath={covidCasesDeath} covidCasesRecovered={covidCasesRecovered}/>}
             </div>
