@@ -5,6 +5,7 @@ import { Error } from '../Components/Error/Error';
 import { Footer } from '../Components/Layout/Footer/Footer';
 import { Header } from '../Components/Layout/Header/Header';
 import { GraphData } from '../Components/Pages/GraphData/GraphData';
+import { GraphDataVaccine } from '../Components/Pages/GraphDataVaccine/GraphDataVaccine';
 import { Home } from '../Components/Pages/Home/Home';
 import styles from './Router.module.css';
 
@@ -20,6 +21,7 @@ export const Router = () => {
                     <Route path='/' element={<Navigate to='/home' />} />
                     <Route path='/home' element={<Home />} />
                     <Route path='/statistics' element={<GraphData />} />
+                    <Route path='/vaccine' element={<GraphDataVaccine />} />
                     <Route path='*' element={<Error />} />
                 </Routes>
             </section>

@@ -15,7 +15,10 @@ export const Header = () => {
                         <NavLink to='/home' className={({isActive}) => isActive ? styles.active : ''}>World Map</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/statistics' className={({isActive}) => isActive ? styles.active : ''}>Graph Data</NavLink>
+                        <NavLink to='/statistics' className={({isActive}) => isActive ? styles.active : ''}>Cases Data</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/vaccine' className={({isActive}) => isActive ? styles.active : ''}>Vaccine</NavLink>
                     </li>
                 </ul>
             </nav>
