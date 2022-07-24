@@ -59,9 +59,14 @@ export const GraphData = () => {
 
     return (
         <div className={styles.container}>
-            <form onSubmit={(e) => handleClick(e)}>
-                <input type='text' placeholder='Country' name='country'/>
-                <input type='submit' value='Search' />
+            <form onSubmit={(e) => handleClick(e)} className={styles.form}>
+                <h3>Type a country to search (The first letter should be in uppercase)</h3>
+                <div className={styles.inner}>
+                    <input type='text' placeholder='Country' name='country' className={styles.text}/>
+                </div>
+                <div className={styles.inner}>
+                    <input type='submit' value='Search' className={styles.button} />
+                </div>
             </form>
             <div className='graph'>
                 {isLoading && <Loader />}

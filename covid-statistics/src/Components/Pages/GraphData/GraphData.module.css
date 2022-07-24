@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.inner {
+    display: block;
+    padding: 5px;
+}
+
+.button {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #6643b5;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 300ms;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: #8594e4;
+}

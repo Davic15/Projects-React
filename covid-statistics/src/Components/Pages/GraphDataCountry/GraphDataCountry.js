@@ -6,12 +6,14 @@ export const GraphDataCountry = ({ covidCases, covidCasesDeath, covidCasesRecove
 
     return (
         <div className={styles.container}>
+            <div>
             {covidCases.length > 0 && <>
                 <h3>Confirmed Cases</h3>
                 {covidCases && (<>
                     <AreaChart
                         width={500}
                         height={400}
+                        className={styles.area}
                         data={covidCases}
                         margin={{
                             top: 10,
@@ -28,13 +30,15 @@ export const GraphDataCountry = ({ covidCases, covidCasesDeath, covidCasesRecove
                     </AreaChart>
                 </>)}
             </>}
-
+            </div>
+            <div>
             {covidCases.length > 0 && <>
                 <h3>Deaths</h3>
                 {covidCases && (<>
                     <AreaChart
                         width={500}
                         height={400}
+                        className={styles.area}
                         data={covidCasesDeath}
                         margin={{
                             top: 10,
@@ -51,13 +55,15 @@ export const GraphDataCountry = ({ covidCases, covidCasesDeath, covidCasesRecove
                     </AreaChart>
                 </>)}
             </>}
-
+            </div>
+            <div>
             {covidCases.length > 0 && <>
                 <h3>Recovered</h3>
                 {covidCases && (<>
                     <AreaChart
                         width={500}
                         height={400}
+                        className={styles.area}
                         data={covidCasesRecovered}
                         margin={{
                             top: 10,
@@ -74,6 +80,7 @@ export const GraphDataCountry = ({ covidCases, covidCasesDeath, covidCasesRecove
                     </AreaChart>
                 </>)}
             </>}
+            </div>
         </div>
     )
 }

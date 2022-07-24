@@ -29,10 +29,8 @@ export const MapChart = ({ setTooltipContent, covidCases, setCountryToShow }) =>
                   key={geo.rsmKey}
                   geography={geo}
                   onMouseEnter={() => {
-                    //setTooltipContent(`${getCountry(geo.properties.name)}`);
                     setTooltipContent(`${geo.properties.name}`);
                     setCountryToShow(`${getCountry(geo.properties.name)}`)
-                    //setTooltipContent(`${geo.properties.name, getCountry(geo.properties.name)}`);
                   }}
                   onMouseLeave={() => {
                     setTooltipContent("");
