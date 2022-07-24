@@ -11,7 +11,7 @@ export const MapChart = ({ setTooltipContent, covidCases, setCountryToShow }) =>
   const getCountry = (countryName) => {
     const countryAll = Object.values(covidCases).find(cn => cn.All.country === countryName)
     if (countryAll) {
-      const arrayInfo = new Array(countryAll.All.confirmed, countryAll.All.confirmed, countryAll.All.population, countryAll.All.abbreviation);
+      const arrayInfo = new Array(countryAll.All.confirmed, countryAll.All.deaths, countryAll.All.population, countryAll.All.abbreviation);
       return arrayInfo
     } else {
       return "";

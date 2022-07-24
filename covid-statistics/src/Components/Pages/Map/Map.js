@@ -9,8 +9,6 @@ export const Map = ({ covidCases }) => {
     const [content, setContent] = useState("");
     const [country, setCountry] = useState("");
 
-    console.log(country)
-
     return (
         <div className={styles.container}>
             <MapChart setTooltipContent={setContent} covidCases={covidCases} setCountryToShow={setCountry} className={styles['map-chart']}/>
