@@ -6,14 +6,16 @@ const useGaTracker = () => {
 
     useEffect(() => {
         if (!window.location.href.includes("localhost")) {
-            ReactGA.initialize("G-QKDBLR3HZF");
+            ReactGA.initialize("G-J89BXXVYHW");
             setInitialized(true);
+            console.log('Initialized GA.')
         }
     }, []);
 
     useEffect(() => {
         if (initialized) {
             ReactGA.pageview(window.location.pathname + window.location.search);
+            console.log('Working GA.')
         }
     }, [initialized]);
 };
