@@ -9,7 +9,7 @@ export const About = () => {
            <div className="about-me__body">
                <p>
                     Hello, I am Franklin Macias. Nice to meet you.
-                    I experience in front-end developer and have good knowledge of HTML, CSS, JavaScript (ES6), React.js, Node.js, MongoDB and Express.js.
+                    I have experience in front-end developer and have good knowledge of HTML, CSS, JavaScript (ES6), React.js, Node.js, MongoDB and Express.js.
                 </p>
                <p>
                     On a personal level, I am highly motivated, result oriented, self-driven, hardworking, a fast learner and constantly seeking to improve my skills, 
