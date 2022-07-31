@@ -9,14 +9,14 @@ export const About = () => {
            <div className="about-me__body">
                <p>
                     Hello, I am Franklin Macias. Nice to meet you.
-                    I am an experience in front-end developer and have good knowledge of HTML, CSS, JavaScript (ES6), React.js, Node.js, MongoDB and Express.js.
+                    I experience in front-end developer and have good knowledge of HTML, CSS, JavaScript (ES6), React.js, Node.js, MongoDB and Express.js.
                 </p>
                <p>
-                    On a personal level, I am highly motivated, result oriented, self-driven, hardworking, fast learner and constantly seeking to improve my skills, 
+                    On a personal level, I am highly motivated, result oriented, self-driven, hardworking, a fast learner and constantly seeking to improve my skills, 
                     and I am an avid user of the latest front-end development tools. 
                 </p>
                 <p>
-                    I adapt well to different culture and environment.  I  am independent as an individual contributor but I am team oriented and get along well with 
+                    I adapt well to different cultures and environments.  I  am independent as an individual contributor but I am team oriented and get along well with 
                     others when working in a group.
                 </p>
            </div>
