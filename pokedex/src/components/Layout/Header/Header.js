@@ -8,17 +8,16 @@ export const Header = () => {
 
     return (
         <>
-            <Navbar bg='dark'>
+            <Navbar bg='dark' variant='dark'>
                 <Container>
-                    <Navbar.Brand>
-                        <img
-                            src={logo}
-                            width='50'
-                            height='50'
-                            className={`d-inline-block align-top container`}
-                            alt='Pokemon Logo'
-                        />
-                    </Navbar.Brand>
+                <Navbar.Brand href='#home'>
+                    <img
+                        alt='Pokemon Logo'
+                        src={logo}
+                        className={`d-inline-block align-top ${styles.logos}`}
+                    />{' '}
+                    Pokedex
+                </Navbar.Brand>
                 </Container>
             </Navbar>
         </>
