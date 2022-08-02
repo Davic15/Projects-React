@@ -17,7 +17,6 @@ export const Home = () => {
         try {
             const res = await fetch (url);
             const data = await res.json();
-            console.log(data.next)
             setNextUrl(data.next);
             setPrevUrl(data.previous)
             getPokemonDetails(data.results);
@@ -49,7 +48,6 @@ export const Home = () => {
                 <Row>
                     { pokeDetails.length > 0 ? <PokeCard pokeDetails={pokeDetails} isLoading={isLoading} /> : <Loader />}
                 </Row>
-
                 { prevUrl && <Button onClick={ () => {
                     setPokeDetails([]); 
                     setUrl(prevUrl)
@@ -61,21 +59,7 @@ export const Home = () => {
                     setUrl(nextUrl)
                     }}>Next</Button>
                 }
-
                 <div className={styles.splitter}></div>
-            </Container>
-            <Container>
-                { prevUrl && <Button onClick={ () => {
-                    setPokeDetails([]); 
-                    setUrl(prevUrl)
-                    }}>Previous</Button>
-                }
-                
-                { nextUrl && <Button onClick={ () => {
-                    setPokeDetails([]); 
-                    setUrl(nextUrl)
-                    }}>Next</Button>
-                }
             </Container>
         </>
     )

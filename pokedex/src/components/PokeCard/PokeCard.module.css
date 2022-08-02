@@ -10,13 +10,18 @@
 }
 
 .title {
-    font-weight: bolder;
+    font-weight: 600;
     text-transform: capitalize;
+    text-align: center;
+}
+
+.basic {
+    text-align: center;
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .grass {
@@ -49,6 +54,42 @@
 
 .fairy {
     background-color: #eacbcb;
+}
+
+.ground {
+    background-color: #ecc78d;
+}
+
+.fighting {
+    background-color: #cc9f9f;
+}
+
+.rock {
+    background-color: #b3adad;
+}
+
+.psychic {
+    background-color: #f28282;
+}
+
+.ghost {
+    background-color: #a287bd;
+}
+
+.ice {
+    background-color: #4fb2fc;
+}
+
+.dragon {
+    background-color: #f456a4;
+}
+
+.dark {
+    background-color: #6d6d6d;
+}
+
+.steel {
+    background-color: #d1cccc;
 }
 
 .card {
