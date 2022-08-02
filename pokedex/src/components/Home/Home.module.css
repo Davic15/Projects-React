@@ -1,5 +1,7 @@
 .section {
-    margin-left: 10%;
-    margin-right: 10%;
-    border: 1px solid red;
+    margin: 2rem auto 2rem auto;
+}
+
+.splitter {
+    margin-bottom: 4rem;
 }

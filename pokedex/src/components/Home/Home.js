@@ -43,10 +43,11 @@ export const Home = () => {
         <>
         {/*<section className={styles.section}>*/}
 
-        <Container>
-                    <Row>
-                    { pokeDetails.length > 0 ? <PokeCard pokeDetails={pokeDetails} isLoading={isLoading} /> : <Loader />}
-                    </Row>
+        <Container className={styles.section}>
+            <Row>
+                { pokeDetails.length > 0 ? <PokeCard pokeDetails={pokeDetails} isLoading={isLoading} /> : <Loader />}
+            </Row>
+            <div className={styles.splitter}></div>
         </Container>
         {/*</section>*/}
         </>

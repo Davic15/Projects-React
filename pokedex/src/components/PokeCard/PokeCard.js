@@ -53,8 +53,8 @@ export const PokeCard = ({ isLoading, pokeDetails }) => {
         <>
             { isLoading ? <Loader /> : pokeDetails.map(poke => {
                 return (
-                    <Col sm={12} md={5} lg={4} xl={3}>
-                        <Card style={{ width: '18rem', height: '20rem' }} key={poke.id}>
+                    <Col sm={12} md={6} lg={4} xl={3}>
+                        <Card key={poke.id} className={styles.card}>
                             <div className={`${styles.poke_image} ${speciesIcon(poke.types[0].type.name)[1]}`}>
                                 <Card.Img variant="top" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${poke.id}.svg`} className={`${styles.image}`} />
                             </div>
