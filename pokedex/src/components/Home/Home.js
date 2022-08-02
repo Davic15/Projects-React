@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Loader } from '../Loader/Loader';
 import { PokeCard } from '../PokeCard/PokeCard';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Button } from 'react-bootstrap';
 import styles from './Home.module.css';
 
 export const Home = () => {
-    const [isLoading, setIsLoading] = useState(true)
+    const [isLoading, setIsLoading] = useState(true);
+    const [nextUrl, setNextUrl] = useState('');
+    const [prevUrl, setPrevUrl] = useState('');
     const [url, setUrl] = useState('https://pokeapi.co/api/v2/pokemon/');
     const [pokeDetails, setPokeDetails] = useState([]);
 
@@ -15,12 +17,14 @@ export const Home = () => {
         try {
             const res = await fetch (url);
             const data = await res.json();
+            console.log(data.next)
+            setNextUrl(data.next);
+            setPrevUrl(data.previous)
             getPokemonDetails(data.results);
         } catch (err) {
             throw new Error (err)
         }
         setIsLoading(false)
-
     }
 
     const getPokemonDetails = async(items) => {
@@ -41,15 +45,38 @@ export const Home = () => {
 
     return (
         <>
-        {/*<section className={styles.section}>*/}
+            <Container className={styles.section}>
+                <Row>
+                    { pokeDetails.length > 0 ? <PokeCard pokeDetails={pokeDetails} isLoading={isLoading} /> : <Loader />}
+                </Row>
 
-        <Container className={styles.section}>
-            <Row>
-                { pokeDetails.length > 0 ? <PokeCard pokeDetails={pokeDetails} isLoading={isLoading} /> : <Loader />}
-            </Row>
-            <div className={styles.splitter}></div>
-        </Container>
-        {/*</section>*/}
+                { prevUrl && <Button onClick={ () => {
+                    setPokeDetails([]); 
+                    setUrl(prevUrl)
+                    }}>Previous</Button>
+                }
+                
+                { nextUrl && <Button onClick={ () => {
+                    setPokeDetails([]); 
+                    setUrl(nextUrl)
+                    }}>Next</Button>
+                }
+
+                <div className={styles.splitter}></div>
+            </Container>
+            <Container>
+                { prevUrl && <Button onClick={ () => {
+                    setPokeDetails([]); 
+                    setUrl(prevUrl)
+                    }}>Previous</Button>
+                }
+                
+                { nextUrl && <Button onClick={ () => {
+                    setPokeDetails([]); 
+                    setUrl(nextUrl)
+                    }}>Next</Button>
+                }
+            </Container>
         </>
     )
 }

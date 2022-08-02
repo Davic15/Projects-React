@@ -40,6 +40,21 @@ export const PokeCard = ({ isLoading, pokeDetails }) => {
                 color = `${styles.normal}`
             break;
 
+            case 'poison':
+                image = '/images/poison.png';
+                color = `${styles.poison}`
+            break;
+
+            case 'electric':
+                image = '/images/electric.png';
+                color = `${styles.electric}`
+            break;
+
+            case 'fairy':
+                image = '/images/fairy.png';
+                color = `${styles.fairy}`
+            break;
+
             default:
                 image = '/images/default.png';
                 color = `${styles.normal}`
@@ -49,12 +64,16 @@ export const PokeCard = ({ isLoading, pokeDetails }) => {
         return [image, color];
     }
 
+    const displayDetails = (id) => {
+        console.log(id)
+    }
+
     return (
         <>
             { isLoading ? <Loader /> : pokeDetails.map(poke => {
                 return (
                     <Col sm={12} md={6} lg={4} xl={3}>
-                        <Card key={poke.id} className={styles.card}>
+                        <Card key={poke.id} className={styles.card} onClick={() => displayDetails(poke.id)}>
                             <div className={`${styles.poke_image} ${speciesIcon(poke.types[0].type.name)[1]}`}>
                                 <Card.Img variant="top" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${poke.id}.svg`} className={`${styles.image}`} />
                             </div>
