@@ -190,5 +190,21 @@ export const projects = [
         'technologies': 'The technologies used are: React.js, React router, React Country Flag, React Loader, React tooltip, Recharts and REST API Disease.sh and COVID-19 API.',
         'github': 'https://github.com/Davic15/Projects-React/tree/main/covid-statistics',
         'website': 'https://precious-halva-33d4b0.netlify.app/home'
+    },
+    {
+        'id': '13',
+        'name': 'Pokedex',
+        'img': '/img/portfolio-13.png',
+        'img_project': '/img/portfolio-13-item.png',
+        'alt': 'COVID-19 Statistics',
+        'url': '/projectitem/',
+        'title01': 'Pokemon',
+        'title02': 'Pokedex',
+        'title03': 'React.js Project',
+        'description01': 'Web application that uses the information got it from PokeAPI, about all Pokémon.',
+        'description02': 'The API provides data about different topics related to the Pokémon world (games, series, world, etc.).',
+        'technologies': 'The technologies used are: React.js, Bootstrap, React Loader and REST API PokeAPI.',
+        'github': 'https://github.com/Davic15/Projects-React/tree/main/pokedex',
+        'website': 'https://delightful-strudel-61d976.netlify.app/'
     }
 ];
