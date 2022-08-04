@@ -46,20 +46,22 @@ export const Home = () => {
         <>
             <Container className={styles.section}>
                 <Row>
-                    { pokeDetails.length > 0 ? <PokeCard pokeDetails={pokeDetails} isLoading={isLoading} /> : <Loader />}
+                    { pokeDetails.length > 0 ? <PokeCard pokeDetails={pokeDetails} isLoading={isLoading}/> : <Loader />}
                 </Row>
-                { prevUrl && <Button onClick={ () => {
+
+                <div className={styles.splitter}>
+                { prevUrl && <Button variant='danger' className={styles.button} onClick={ () => {
                     setPokeDetails([]); 
                     setUrl(prevUrl)
                     }}>Previous</Button>
                 }
                 
-                { nextUrl && <Button onClick={ () => {
+                { nextUrl && <Button variant='danger' className={styles.button} onClick={ () => {
                     setPokeDetails([]); 
                     setUrl(nextUrl)
                     }}>Next</Button>
                 }
-                <div className={styles.splitter}></div>
+                </div>
             </Container>
         </>
     )

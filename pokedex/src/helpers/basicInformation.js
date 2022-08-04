@@ -88,6 +88,11 @@ export const speciesIcon = (type) => {
             color = `${styles.steel}`
         break;
 
+        case 'flying':
+            image = '/images/flying.png';
+            color = `${styles.flying}`
+        break;
+
         default:
             image = '/images/default.png';
             color = `${styles.normal}`
