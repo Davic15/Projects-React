@@ -13,7 +13,6 @@ export const Home = () => {
 
     const getPokemonList = async() => {
         setIsLoading(true);
-
         try {
             const res = await fetch (url);
             const data = await res.json();
