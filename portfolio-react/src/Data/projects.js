@@ -175,7 +175,7 @@ export const projects = [
         'github': 'https://github.com/Davic15/Projects-React/tree/main/dota2-app-react',
         'website': 'https://fantastic-hamster-709973.netlify.app/home'
     },
-    {
+    /*{
         'id': '12',
         'name': 'COVID-19 Statistics',
         'img': '/img/portfolio-12.png',
@@ -190,7 +190,7 @@ export const projects = [
         'technologies': 'The technologies used are: React.js, React router, React Country Flag, React Loader, React tooltip, Recharts and REST API Disease.sh and COVID-19 API.',
         'github': 'https://github.com/Davic15/Projects-React/tree/main/covid-statistics',
         'website': 'https://precious-halva-33d4b0.netlify.app/home'
-    },
+    },*/
     {
         'id': '13',
         'name': 'Pokedex',
