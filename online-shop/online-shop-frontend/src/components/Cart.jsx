@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { addToCart, clearCart, decreaseCart, removeFromCart } from '../features/cartSlice';
+import { addToCart, clearCart, decreaseCart, getTotals, payCheckOut, removeFromCart } from '../features/cartSlice';
 
 import classes from './Cart.module.css';
 
@@ -9,6 +9,10 @@ export const Cart = () => {
 
     const dispatch = useDispatch();
     const cart = useSelector(state => state.cart);
+
+    useEffect(() => {
+        dispatch(getTotals())
+    }, [cart, dispatch])
 
     const handleRemoveFromCart = (cartItem) => {
         dispatch(removeFromCart(cartItem));
@@ -24,6 +28,10 @@ export const Cart = () => {
 
     const handleClearCart = () => {
         dispatch(clearCart());
+    }
+
+    const handleCheckoutCart = () => {
+        dispatch(payCheckOut())
     }
 
     return (
@@ -81,7 +89,7 @@ export const Cart = () => {
                                         <span className={classes['amount']}>${cart.cartTotalAmount}</span>
                                     </div>
                                     <p>Taxes and shipping calculated at checkout</p>
-                                    <button>Check out</button>
+                                    <button onClick={handleCheckoutCart}>Check out</button>
                                     <div className={classes['continue-shopping']}>
                                         <Link to='/'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
