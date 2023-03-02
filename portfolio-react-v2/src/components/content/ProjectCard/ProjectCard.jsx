@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col } from 'react-bootstrap';
+import { Col, Nav } from 'react-bootstrap';
 import './ProjectCard.css';
 import githubIcon from '../../../assets/img/githubIcon.svg';
 import websiteIcon from '../../../assets/img/websiteIcon.svg'
@@ -14,8 +14,8 @@ export const ProjectCard = ({ title, description, imgUrl, github, website }) => 
                     <span>{description}</span>
                     <br></br><br></br>
                     <div className='social-icon'>
-                        <a href={github} target='_blank' rel="noreferrer"><img src={githubIcon} alt='' /></a>
-                        <a href={website} target='_blank' rel="noreferrer"><img src={websiteIcon} alt='' /></a>
+                        <Nav.Link href={github} target='_blank' rel='noreferrer'><img src={githubIcon} alt='github' /></Nav.Link>
+                        <Nav.Link href={website} target='_blank' rel='noreferrer'><img src={websiteIcon} alt='website' /></Nav.Link>
                     </div>
                 </div>
             </div>

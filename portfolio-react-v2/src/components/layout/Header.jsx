@@ -5,13 +5,15 @@ import { HashLink } from 'react-router-hash-link';
 import './Header.css';
 import logo from '../../assets/img/logo.svg';
 import navIcon1 from '../../assets/img/navIcon1.svg';
-import navIcon2 from '../../assets/img/navIcon2.svg';
-import navIcon3 from '../../assets/img/navIcon3.svg';
+import navIcon2 from '../../assets/img/github.svg';
 
 export const Header = () => {
 
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
+
+    const githubLink = 'https://github.com/Davic15';
+    const linkedinLink = 'https://www.linkedin.com/in/franklin-david-macias-avellan-704030188';
 
     useEffect(() => {
         const onScroll = () => {
@@ -35,7 +37,7 @@ export const Header = () => {
         <BrowserRouter>
             <Navbar expand='md' className={scrolled ? 'scrolled' : ''}>
                 <Container>
-                <Navbar.Brand href='/'>
+                <Navbar.Brand href='#home'>
                     <img src={logo} alt='Logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'>
@@ -49,12 +51,11 @@ export const Header = () => {
                     </Nav>
                     <span className={'navbar-text'}>
                     <div className={'social-icon'}>
-                        <a href='#'><img src={navIcon1} alt='' /></a>
-                        <a href='#'><img src={navIcon2} alt='' /></a>
-                        <a href='#'><img src={navIcon3} alt='' /></a>
+                        <Nav.Link href={linkedinLink} target='_blank' rel="noreferrer"><img src={navIcon1} alt='linkedin' /></Nav.Link>
+                        <Nav.Link href={githubLink} target='_blank' rel="noreferrer"><img src={navIcon2} alt='github' /></Nav.Link>
                     </div>
                     <HashLink to='#connect'>
-                        <button className={'vvd'}><span>Let’s Connect</span></button>
+                        <button className={'vvd'}><span>Let's Connect</span></button>
                     </HashLink>
                     </span>
                 </Navbar.Collapse>
