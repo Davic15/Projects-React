@@ -24,7 +24,7 @@ export const Footer = () => {
                             <Nav.Link href={linkedinLink} target='_blank' rel="noreferrer"><img src={navIcon1} alt='linkedin' /></Nav.Link>
                             <Nav.Link href={githubLink} target='_blank' rel="noreferrer"><img src={navIcon2} alt='github' /></Nav.Link>
                         </div>
-                        <p>Copyright 202. All Rights Reserved</p>
+                        <p>Copyright 2023. All Rights Reserved</p>
                     </Col>
                 </Row>
             </Container>
