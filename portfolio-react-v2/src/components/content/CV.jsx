@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Row } from "react-bootstrap";
 import './CV.css';
+import cvFile from '../../assets/files/Franklin_Resume_v2.pdf'
 
 export const CV = () => {
     return (
@@ -12,7 +13,7 @@ export const CV = () => {
             </Col>
             <Col md={6} xl={7}>
                 <div className='download-container-file'>
-                    <a href='../../assets/files/Franklin_Resume_v2.pdf' download>
+                    <a href={cvFile} target="_blank" rel="noopener noreferrer" download>
                         <button type='button'>Download</button>
                     </a>
                 </div>
