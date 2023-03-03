@@ -23,13 +23,13 @@ export const Project = () => {
                                     <Tab.Container id='projects-tabs' defaultActiveKey='first'>
                                         <Nav variant='pills' className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
                                             <Nav.Item>
-                                                <Nav.Link eventKey='first'>JavaScript</Nav.Link>
+                                                <Nav.Link eventKey='first'>JS</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
                                                 <Nav.Link eventKey='second'>React</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey='third'>React + Redux</Nav.Link>
+                                                <Nav.Link eventKey='third'>Redux</Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content id='slideInUp' className={isVisible ? 'animate__animated animate__slideInUp' : ''}>
