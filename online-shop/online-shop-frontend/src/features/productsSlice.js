@@ -11,7 +11,7 @@ const initialState = {
 export const productsFetch = createAsyncThunk(
     'products/productsFetch',
     async() => {
-        const response = await axios.get('https://backend-onlineshop-production.up.railway.app/products')
+        const response = await axios.get('https://backend-onlineshop-production-ba55.up.railway.app/products')
         return response?.data
 
     }

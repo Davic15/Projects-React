@@ -3,7 +3,7 @@ import { products } from '../products/products';
 
 export const productsApi = createApi({
     reducerPath: 'productsApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://backend-onlineshop-production.up.railway.app' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://backend-onlineshop-production-ba55.up.railway.app' }),
     endpoints: (builder) => ({
         getAllProducts: builder.query({
             query: () => 'products'
