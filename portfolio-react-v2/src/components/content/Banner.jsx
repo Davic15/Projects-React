@@ -57,7 +57,7 @@ export const Banner = () => {
                         {({ isVisible }) => 
                             <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                                 <span className='tagline'>Welcome to my Portfolio</span>
-                                <h1>{`Hi! I'm Franklin`} <span className='txt-rotate' dataPeriod='1000' data-rotate='[ "Web Developer", "Junior Frontend", "React Developer" ]'><span className='wrap'>{text}</span></span></h1>
+                                <h1>{`I'm a`} <span className='txt-rotate' dataPeriod='1000' data-rotate='[ "Web Developer", "Frontend Developer", "React Developer" ]'><span className='wrap'>{text}</span></span></h1>
                                 <p>Nice to meet you. I have experience as a front-end developer and have good knowledge of HTML, CSS, JavaScript (ES6), Bootstrap, React.js, Redux, Node.js, MongoDB and Express.js.</p>
                                 <Nav.Link href='#connect' className='conn'>Let's Connect <ArrowRightCircle size={25} /></Nav.Link>
                             </div>
