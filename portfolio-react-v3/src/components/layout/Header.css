@@ -1,0 +1,40 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* center the navbar links */
+.header-container-navbar__inner {
+    margin: 0 22%;
+}
+
+.header-container-navbar a {
+    color: #fefefe !important;
+    font-size: 1rem;
+}
+
+.header-container-navbar a:hover {
+    color: #23c56e !important;
+    font-weight: bold;
+}
+
+.header-button {
+    border: 1px solid #fefefe;
+}
+
+.header-button:hover,
+.header-button:focus,
+.header-button:active {
+    box-shadow: 0px 0px 5px 1px #23c56e;
+    border: 1px solid #23c56e;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Modify the margin in the navbar links*/
+@media only screen and (max-width: 991px) {
+    .header-container-navbar__inner {
+        margin: 0;
+    }
+}
