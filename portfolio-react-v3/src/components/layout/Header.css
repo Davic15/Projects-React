@@ -7,6 +7,10 @@
     margin: 0 22%;
 }
 
+.header-container-navbar {
+    background-color: #161729;
+}
+
 .header-container-navbar a {
     color: #fefefe !important;
     font-size: 1rem;

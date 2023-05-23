@@ -7,7 +7,7 @@ import './Header.css';
 export const Header = () => {
     return (
         <header className='header'>
-            <Navbar className='header-container-navbar' expand='lg'>
+            <Navbar className='header-container-navbar' expand='lg' fixed='top'>
                 <Container>
                     <Navbar.Brand href='#home'>WebDevFranklin</Navbar.Brand>
                     <Navbar.Toggle
@@ -17,6 +17,7 @@ export const Header = () => {
                     <Navbar.Collapse id='basic-navbar-nav'>
                         <Nav className='me-auto header-container-navbar__inner'>
                             <Nav.Link href='#home'>Home</Nav.Link>
+                            <Nav.Link href='#link'>About me</Nav.Link>
                             <Nav.Link href='#link'>Projects</Nav.Link>
                             <Nav.Link href='#home'>Experience</Nav.Link>
                             <Nav.Link href='#link'>Contact me</Nav.Link>

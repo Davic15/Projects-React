@@ -1,7 +1,9 @@
 .hero {
-    height: 100vh;
+    height: 100%;
     color: #fefefe !important;
-    margin: 35px 25px 0 25px;
+    margin: 45px 45px 10% 45px;
+    padding: 25px 25px 10% 25px;
+    border-bottom: 2px solid #23c56e;
 }
 
 h1,
@@ -10,11 +12,47 @@ h2 {
     margin-bottom: 35px;
 }
 
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 .hero-main-container-row {
     align-items: center;
+}
+
+@media only screen and (max-width: 1500px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
 }

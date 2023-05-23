@@ -1,0 +1,14 @@
+.projects {
+    height: 100%;
+    color: #fefefe !important;
+    margin: 45px 45px 10% 45px;
+    padding: 25px 25px 10% 25px;
+    border-bottom: 2px solid #23c56e;
+}
+
+.pro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
