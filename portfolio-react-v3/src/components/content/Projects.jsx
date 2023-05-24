@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Projects.css';
 import { CardProjects } from './CardProjects';
+import { projects } from '../../data/projects';
 
 export const Projects = () => {
     return (
@@ -18,16 +19,9 @@ export const Projects = () => {
                 </Row>
                 <Row>
                     <Col sm={12} md={12} lg={12} className='pro'>
-                        <CardProjects />
-                        <CardProjects />
-                        <CardProjects />
-                        <CardProjects />
-                        <CardProjects />
-                        <CardProjects />
-                        <CardProjects />
-                        <CardProjects />
-                        <CardProjects />
-                        <CardProjects />
+                        {projects.map((project, index) => {
+                            return <CardProjects key={index} {...project} />;
+                        })}
                     </Col>
                 </Row>
             </Container>
