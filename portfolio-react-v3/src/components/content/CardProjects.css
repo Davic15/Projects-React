@@ -1,0 +1,39 @@
+.main-card {
+    border: 1px solid #23c56e;
+    margin-bottom: 25px;
+}
+
+.card-img-top {
+    border-bottom: 1px solid #23c56e;
+}
+
+.card-text-custom {
+    font-size: 1rem;
+}
+
+.main-card-body {
+    background-color: #161729;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card-title {
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    color: #fefefe !important;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fefefe !important;
+    height: 80px;
+}
+
+.btn-custom_new {
+    display: inline;
+    font-size: 2rem;
+    margin-left: 25%;
+}
+
+.btn-custom_new:hover {
+    color: #23c56e;
+}
