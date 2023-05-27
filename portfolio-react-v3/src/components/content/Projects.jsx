@@ -6,12 +6,12 @@ import { projects } from '../../data/projects';
 
 export const Projects = () => {
     return (
-        <section className='projects'>
+        <section className='projects' id='projects'>
             <Container className='projects-main-container' fluid>
                 <Row className='projects-main-container-row'>
                     <Col sm={12} md={12} lg={12}>
                         <h3>Projects</h3>
-                        <p>
+                        <p className='project-paragraph'>
                             A set of my best project using Vanilla JavaScript,
                             React, Node.js, Redux, Express.js, and much more.
                         </p>

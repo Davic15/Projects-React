@@ -7,6 +7,10 @@
     margin: 0 22%;
 }
 
+.scrolled {
+    padding: 0px 0;
+}
+
 .header-container-navbar {
     background-color: #161729;
 }

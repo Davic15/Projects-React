@@ -20,7 +20,7 @@ import './Experience.css';
 
 export const Experience = () => {
     return (
-        <section className='experience'>
+        <section className='experience' id='experience'>
             <Container className='about-main-container' fluid>
                 <Row className='about-main-container-row'>
                     <Col
@@ -84,7 +84,7 @@ export const Experience = () => {
                                         University Project (Politecnico di
                                         Torino). Web Application focused on
                                         booking seats and classrooms at an
-                                        educational level during the pandemic..
+                                        educational level during the pandemic.
                                         Technologies used: HTML, CSS,
                                         JavaScript, React, Nodejs.
                                     </Typography>

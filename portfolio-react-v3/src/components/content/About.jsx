@@ -4,7 +4,7 @@ import './About.css';
 
 export const About = () => {
     return (
-        <section className='about'>
+        <section className='about' id='about'>
             <Container className='about-main-container' fluid>
                 <Row className='about-main-container-row'>
                     <Col sm={12} md={12} lg={6}>
@@ -19,15 +19,18 @@ export const About = () => {
                         <h3>About me</h3>
 
                         <p className='about-description'>
-                            Hi, I'm Franklin, an Ecuadorian living in Italy. A
-                            highly talented individual with good analytical
-                            skills desires to work as a Frontend Web Developer,
-                            where exceptional ability to accurately analyze
-                            complex business system problems and provide useful
-                            solutions will be needed. Bringing good knowledge of
-                            HTML, CSS, JavaScript and React.js business
-                            functions as well as knowledge of relevant
-                            programming and software tools.
+                            Hello again, I am Franklin David Macias Avellan, I
+                            am a Frontend Web Developer. I am a highly talented
+                            individual with good analytical skills desires to
+                            work as a Frontend Web Developer, where exceptional
+                            ability to accurately analyze complex business
+                            system problems and provide useful solutions will be
+                            needed.
+                        </p>
+                        <p className='about-description'>
+                            Bringing good knowledge of HTML, CSS, JavaScript and
+                            React.js business functions as well as knowledge of
+                            relevant programming and software tools.
                         </p>
                         <p className='about-description'>
                             I bring with me some years of experience, and the

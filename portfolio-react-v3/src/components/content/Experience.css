@@ -9,5 +9,9 @@
 .about-main-container-ul > ul > li > div,
 .about-main-container-ul > ul > li > div > span,
 .about-main-container-ul > ul > li > div > p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-main-container-ul h3 {
     font-family: 'Montserrat Alternates', sans-serif;
 }

@@ -16,11 +16,13 @@ h3 {
 }
 
 .about-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
 .about-main-container-row img {
-    width: 55%;
+    width: 45%;
     height: 35%;
     margin: auto;
     display: block;

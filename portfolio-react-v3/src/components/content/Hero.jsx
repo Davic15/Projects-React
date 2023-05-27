@@ -5,16 +5,16 @@ import hero from '../../assets/hero.svg';
 
 export const Hero = () => {
     return (
-        <section className='hero'>
+        <section className='hero' id='home'>
             <Container className='hero-main-container' fluid>
                 <Row className='hero-main-container-row'>
                     <Col sm={12} md={12} lg={3}>
                         <h1>Franklin David Macias Avellan</h1>
 
                         <p className='hero-paragraph'>
-                            Nice to meet you. I have experience as a front-end
-                            developer and have good knowledge of HTML, CSS,
-                            JavaScript (ES6), Bootstrap, React.js and Redux.
+                            Hello, welcome to my portfolio, nice to meet you.
+                            Feel free to check out my projects and contact
+                            information.
                         </p>
                     </Col>
                     <Col sm={12} md={12} lg={6}>
@@ -28,12 +28,8 @@ export const Hero = () => {
                         <h2>Frontend Web Developer</h2>
 
                         <p className='hero-paragraph'>
-                            With a bit of Back-end too, with tools like Node.js,
+                            With a bit of Backend too, with tools like Node.js,
                             MongoDB and Express.js.
-                        </p>
-                        <p className='hero-paragraph'>
-                            Check out my portfolio, projects, resume and get in
-                            touch with me.
                         </p>
                     </Col>
                 </Row>
