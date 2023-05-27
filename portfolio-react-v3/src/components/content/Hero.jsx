@@ -11,7 +11,7 @@ export const Hero = () => {
                     <Col sm={12} md={12} lg={3}>
                         <h1>Franklin David Macias Avellan</h1>
 
-                        <p>
+                        <p className='hero-paragraph'>
                             Nice to meet you. I have experience as a front-end
                             developer and have good knowledge of HTML, CSS,
                             JavaScript (ES6), Bootstrap, React.js and Redux.
@@ -27,11 +27,11 @@ export const Hero = () => {
                     <Col sm={12} md={12} lg={3}>
                         <h2>Frontend Web Developer</h2>
 
-                        <p>
+                        <p className='hero-paragraph'>
                             With a bit of Back-end too, with tools like Node.js,
                             MongoDB and Express.js.
                         </p>
-                        <p>
+                        <p className='hero-paragraph'>
                             Check out my portfolio, projects, resume and get in
                             touch with me.
                         </p>

@@ -65,14 +65,14 @@ export const projects = [
         id: '08',
         title: 'Pokedex',
         description:
-            'HTML, CSS, JavaScript, React.js, Bootstrap, React Loader and Rest API (PokeAPI).',
+            'HTML, CSS, JavaScript, React.js, Bootstrap and Rest API (PokeAPI).',
         imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1677688518/portfolio/portfolio-13_zwzym1.png',
         github: 'https://github.com/Davic15/Projects-React/tree/main/pokedex',
         website: 'https://delightful-strudel-61d976.netlify.app/',
     },
     {
         id: '09',
-        title: 'Online Show',
+        title: 'Online Shop',
         description:
             'HTML, CSS, JavaScript, React.js, Redux (toolkit), Express.js, Node.js, Rest API.',
         imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1677799466/portfolio/portfolio-14_or5az3.png',
@@ -83,7 +83,7 @@ export const projects = [
         id: '10',
         title: 'Rest Country API',
         description:
-            'HTML, CSS, JavaScript, React.js, Redux.js, Rest API (restcountries).',
+            'HTML, CSS, JavaScript, React.js, Redux (toolkit), Rest API (restcountries).',
         imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1681587832/portfolio/portfolio-16_q1cqa8.png',
         github: 'https://github.com/Davic15/frontendmentor/tree/main/rest-countries-api',
         website: 'https://earnest-blini-cb1afa.netlify.app/',

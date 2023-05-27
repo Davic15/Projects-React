@@ -7,7 +7,6 @@ import { AiFillChrome } from 'react-icons/ai';
 import './CardProjects.css';
 
 export const CardProjects = (props) => {
-    console.log(props);
     return (
         <Card style={{ width: '18rem' }} className='main-card'>
             <Card.Img variant='top' src={props.imgUrl} />

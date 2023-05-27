@@ -18,7 +18,7 @@ export const About = () => {
                     <Col sm={12} md={12} lg={6}>
                         <h3>About me</h3>
 
-                        <p>
+                        <p className='about-description'>
                             Hi, I'm Franklin, an Ecuadorian living in Italy. A
                             highly talented individual with good analytical
                             skills desires to work as a Frontend Web Developer,
@@ -29,7 +29,7 @@ export const About = () => {
                             functions as well as knowledge of relevant
                             programming and software tools.
                         </p>
-                        <p>
+                        <p className='about-description'>
                             I bring with me some years of experience, and the
                             desire to learn and improve every day.
                         </p>

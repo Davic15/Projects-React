@@ -1,8 +1,8 @@
 .hero {
     height: 100%;
     color: #fefefe !important;
-    margin: 45px 45px 10% 45px;
-    padding: 25px 25px 10% 25px;
+    margin: 45px 15px 10% 15px;
+    padding: 25px 15px 10% 15px;
     border-bottom: 2px solid #23c56e;
 }
 
@@ -20,7 +20,7 @@ h2 {
     font-size: 4rem;
 }
 
-p {
+.hero-paragraph {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-align: justify;

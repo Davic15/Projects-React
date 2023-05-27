@@ -3,6 +3,7 @@ import { Header } from '../components/layout/Header';
 import { Hero } from '../components/content/Hero';
 import { Projects } from '../components/content/Projects';
 import { About } from '../components/content/About';
+import { Experience } from '../components/content/Experience';
 
 export const MyRoutes = () => {
     return (
@@ -11,6 +12,7 @@ export const MyRoutes = () => {
             <Hero />
             <About />
             <Projects />
+            <Experience />
         </>
     );
 };

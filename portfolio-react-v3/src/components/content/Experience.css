@@ -1,0 +1,13 @@
+.experience {
+    height: 100%;
+    color: #fefefe !important;
+    margin: 45px 15px 10% 15px;
+    padding: 25px 15px 10% 15px;
+    border-bottom: 2px solid #23c56e;
+}
+
+.about-main-container-ul > ul > li > div,
+.about-main-container-ul > ul > li > div > span,
+.about-main-container-ul > ul > li > div > p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
