@@ -4,8 +4,8 @@ import './About.css';
 
 export const About = () => {
     return (
-        <section className='about' id='about'>
-            <Container className='about-main-container' fluid>
+        <section className='about'>
+            <Container className='about-main-container' fluid id='about'>
                 <Row className='about-main-container-row'>
                     <Col sm={12} md={12} lg={6}>
                         <img
