@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Projects.css';
-import { CardProjects } from './CardProjects';
+import { CardProjects } from '../content/CardContainer/CardProjects';
 import { projects } from '../../data/projects';
 
 export const Projects = () => {

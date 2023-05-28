@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { TimeLine } from './TimeLine';
+import { TimeLine } from './TimeLine/TimeLine';
 
 import Timeline from '@mui/lab/Timeline';
 
