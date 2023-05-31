@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Nav } from 'react-bootstrap';
 import navIcon1 from '../../assets/navIcon1.svg';
-import navIcon2 from '../../assets/navIcon2.svg';
+import navIcon2 from '../../assets/github.svg';
 import './Footer.css';
 
 export const Footer = () => {
