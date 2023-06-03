@@ -12,9 +12,12 @@ export const Hero = () => {
                         <h1>Franklin David Macias Avellan</h1>
 
                         <p className='hero-paragraph'>
-                            Hello, welcome to my portfolio, nice to meet you.
-                            Feel free to check out my projects and contact
-                            information.
+                            I am a frontend developer based in Italy. I have
+                            experience as a software engineer and as a frontend
+                            developer (React) of web applications based on
+                            cryptocurrencies. I am passionate about perfection,
+                            the simplicity of minimalist and intuitive
+                            interfaces.
                         </p>
                     </Col>
                     <Col sm={12} md={12} lg={6}>
@@ -28,8 +31,9 @@ export const Hero = () => {
                         <h2>Frontend Web Developer</h2>
 
                         <p className='hero-paragraph'>
-                            With a bit of Backend too, with tools like Node.js,
-                            MongoDB and Express.js.
+                            With a bit of a backend too, with tools like
+                            Node.js, MongoDB, and Express.js. Check my MERN
+                            projects in the Projects area.
                         </p>
                     </Col>
                 </Row>
