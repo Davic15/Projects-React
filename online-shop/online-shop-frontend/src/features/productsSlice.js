@@ -1,21 +1,22 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-import { products } from '../products/products'
+import { products } from '../products/products';
 
 const initialState = {
     items: [],
     status: null,
-    error: null
+    error: null,
 };
 
 export const productsFetch = createAsyncThunk(
     'products/productsFetch',
-    async() => {
-        const response = await axios.get('https://backend-onlineshop-production-ba55.up.railway.app/products')
-        return response?.data
-
+    async () => {
+        const response = await axios.get(
+            'https://timely-muffin-9475be.netlify.app/.netlify/functions/api/products'
+        );
+        return response?.data;
     }
-)
+);
 
 const productsSlice = createSlice({
     name: 'products',
@@ -27,12 +28,12 @@ const productsSlice = createSlice({
         },
         [productsFetch.fulfilled]: (state, action) => {
             state.status = 'success';
-            state.items = action.payload
+            state.items = action.payload;
         },
         [productsFetch.rejected]: (state, action) => {
             state.status = 'rejected';
-        }
-    }
-})
+        },
+    },
+});
 
 export default productsSlice.reducer;

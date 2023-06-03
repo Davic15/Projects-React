@@ -1,14 +1,17 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react' ;
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { products } from '../products/products';
 
 export const productsApi = createApi({
     reducerPath: 'productsApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://backend-onlineshop-production-ba55.up.railway.app' }),
+    baseQuery: fetchBaseQuery({
+        baseUrl:
+            'https://timely-muffin-9475be.netlify.app/.netlify/functions/api',
+    }),
     endpoints: (builder) => ({
         getAllProducts: builder.query({
-            query: () => 'products'
-        })
-    })
-})
+            query: () => 'products',
+        }),
+    }),
+});
 
-export const { useGetAllProductsQuery } = productsApi
+export const { useGetAllProductsQuery } = productsApi;
