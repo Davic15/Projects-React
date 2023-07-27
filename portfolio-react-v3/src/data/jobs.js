@@ -2,8 +2,9 @@ export const jobs = [
     {
         id: '00',
         title: 'Frontend Web Developer (Freelancer)',
-        description: 'Frontend Web developer at Chocosfera S.R.L.',
-        date: 'May 2023 - Today',
+        description:
+            'Frontend Web developer (Italy), for an Ecommerce that uses cryptocurrencies. Technologies used: HTML, CSS, JavaScript, MongoDB, React and Nodejs.',
+        date: 'Apr 2023 - Today',
         icon: '0',
     },
     {
@@ -26,7 +27,7 @@ export const jobs = [
         id: '03',
         title: 'Software Engineer',
         description:
-            'Farmacias Santa Martha (Pharmaceutical company). Development, maintenance and updating of the computer system (purchases, sales, dispatch, etc.). Technologies used: Visual Basic 6, Microsoft SQL 2005 and Windows Server 2008.',
+            'Farmacias Santa Martha (Pharmaceutical company in Ecuador). Development, maintenance and updating of the computer system (purchases, sales, dispatch, etc.). Technologies used: Visual Basic 6, Microsoft SQL 2005 and Windows Server 2008.',
         date: 'Nov 2012 - Dec 2013',
         icon: '0',
     },

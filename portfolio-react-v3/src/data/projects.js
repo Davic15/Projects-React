@@ -37,7 +37,7 @@ export const projects = [
     },
     {
         id: '04',
-        title: 'Online Shop',
+        title: 'Online Shop (MERN)',
         description:
             'HTML, CSS, JavaScript, React.js, Redux (toolkit), Express.js, Node.js, Rest API.',
         imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1677799466/portfolio/portfolio-14_or5az3.png',
@@ -52,5 +52,23 @@ export const projects = [
         imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1681587832/portfolio/portfolio-16_q1cqa8.png',
         github: 'https://github.com/Davic15/frontendmentor/tree/main/rest-countries-api',
         website: 'https://earnest-blini-cb1afa.netlify.app/',
+    },
+    {
+        id: '06',
+        title: 'Blog (MERN)',
+        description:
+            'MongoDB, Express, React, Node, Netlify (backend and frontend deployed).',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1686134347/portfolio/portfolio-17_vrvgwj.png',
+        github: 'https://github.com/Davic15/fullstack-projects/tree/main/blog',
+        website: 'https://fastidious-kangaroo-df0707.netlify.app/',
+    },
+    {
+        id: '07',
+        title: 'Social Network (MERN)',
+        description:
+            'MongoDB, Express, React, Node, Netlify (backend and frontend deployed).',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1686666803/portfolio/portfolio-18_x4d9xa.png',
+        github: 'https://github.com/Davic15/fullstack-projects/tree/main/social-network',
+        website: 'https://capable-pithivier-742774.netlify.app/',
     },
 ];
