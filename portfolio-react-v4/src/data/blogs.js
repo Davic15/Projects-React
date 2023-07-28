@@ -5,7 +5,7 @@ export const blogs = [
         date: 'Sep 2022',
         description: 'Website with Frontend challenges',
         category: 'Challenges',
-        urlImg: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690491066/blog1_jwrqvc.png',
+        urlImg: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690551443/blog1_resized_xmy7nj.png',
         urlSite: 'https://www.frontendmentor.io/profile/Davic15',
     },
     {
@@ -14,7 +14,7 @@ export const blogs = [
         date: 'Jul 2022',
         description: 'Repositories with my projects and coding history',
         category: 'Control Version',
-        urlImg: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690489094/blog2_dzxbur.png',
+        urlImg: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690551443/blog2_resize_m4pfa6.png',
         urlSite: 'https://github.com/Davic15',
     },
 ];

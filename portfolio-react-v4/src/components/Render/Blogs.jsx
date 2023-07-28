@@ -19,9 +19,9 @@ export const Blogs = ({ blog }) => {
                 </a>
             </div>
             <div className='article__bottom'>
-                <time dateTime='2024-08-30' className='article__date'>
+                {/*<time dateTime='2024-08-30' className='article__date'>
                     {blog.date}
-                </time>
+    </time>*/}
 
                 <a href={blog.urlSite} className='article__link'>
                     <h2 className='article__title'>

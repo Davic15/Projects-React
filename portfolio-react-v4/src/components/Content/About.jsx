@@ -5,7 +5,7 @@ export const About = () => {
         <section className='content__page content__about'>
             <header className='about__header'>
                 <h1 className='about__title'>
-                    Sobre <span className='title__color'>Mi</span>
+                    About <span className='title__color'>Me</span>
                 </h1>
             </header>
             <section className='about__personal-info'>

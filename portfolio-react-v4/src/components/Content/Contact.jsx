@@ -34,7 +34,7 @@ export const Contact = () => {
     return (
         <section className='content__page content__contact'>
             <header className='contact__header'>
-                <h1 className='contact__title'>Contacto</h1>
+                <h1 className='contact__title'>Contact</h1>
             </header>
 
             <div className='contact__container'>
