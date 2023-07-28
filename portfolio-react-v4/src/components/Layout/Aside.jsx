@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavBar } from './NavBar';
 
-export const Aside = () => {
+export const Aside = ({ show }) => {
     return (
-        <aside className='layout__aside'>
+        <aside
+            className={`layout__aside ${show ? 'layout__aside--visible' : ''}`}
+        >
             <section className='aside__user-info'>
                 {/* Informacion General */}
                 <div className='user-info__general'>

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
+import React, { useState, useRef, useLayoutEffect, useEffect } from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Main } from '../components/Content/Main';
 import { Aside } from '../components/Layout/Aside';
 import { About } from '../components/Content/About';
@@ -9,37 +9,54 @@ import { Blog } from '../components/Content/Blog';
 import { Contact } from '../components/Content/Contact';
 
 export const RoutesPortfolio = () => {
-    const handleMenu = (e) => {
-        let visible = document.querySelector('.layout__aside--visible');
+    const [visible, setVisible] = useState(false);
+    const [show, setShow] = useState(false);
+
+    const handleMenu = () => {
         if (!visible) {
-            document.body.classList.add('layout__aside--visible');
-            document.querySelector(
-                '.layout__menu-toggle .fa-bars'
-            ).style.opacity = 0;
-            document.querySelector(
-                '.layout__menu-toggle .fa-xmark'
-            ).style.opacity = 1;
+            setVisible(true);
+            setShow(true);
         } else {
-            document.body.classList.remove('layout__aside--visible');
-            document.querySelector(
-                '.layout__menu-toggle .fa-bars'
-            ).style.opacity = 1;
-            document.querySelector(
-                '.layout__menu-toggle .fa-xmark'
-            ).style.opacity = 0;
+            setVisible(false);
+            setShow(false);
         }
     };
+
+    const [windowSize, setWindowSize] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleWindowResize = () => {
+            setWindowSize(window.innerWidth);
+        };
+
+        if (parseInt(windowSize) <= 1060) {
+            setShow(false);
+            setVisible(false);
+        }
+
+        window.addEventListener('resize', handleWindowResize);
+
+        return () => {
+            window.removeEventListener('resize', handleWindowResize);
+        };
+    }, [windowSize]);
 
     return (
         <BrowserRouter>
             <div className='layout'>
                 {/* Barra Lateral (Info del Usuario) */}
-                <Aside />
+                <Aside show={show} />
 
                 {/* Menu Responsive */}
                 <div className='layout__menu-toggle' onClick={handleMenu}>
-                    <i className='fa-solid fa-bars menu-toggle__icon'></i>
-                    <i className='fa-solid fa-xmark menu-toggle__icon'></i>
+                    <i
+                        className='fa-solid fa-bars menu-toggle__icon'
+                        style={!visible ? { opacity: 1 } : { opacity: 0 }}
+                    ></i>
+                    <i
+                        className='fa-solid fa-xmark menu-toggle__icon'
+                        style={visible ? { opacity: 1 } : { opacity: 0 }}
+                    ></i>
                 </div>
 
                 {/*} Contenido Principal */}
