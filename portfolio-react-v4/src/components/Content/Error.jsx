@@ -2,10 +2,9 @@ import React from 'react';
 
 export const Error = () => {
     return (
-        <section className='content__page content__resume'>
-            <header className='resume__header'>
-                <h1 className='resume__title'>Error 404. Page not found</h1>
-            </header>
+        <section className='content__page'>
+            <h1 className='page__name'>Error 404</h1>
+            <h2 className='page__job'>Page not found</h2>
         </section>
     );
 };
