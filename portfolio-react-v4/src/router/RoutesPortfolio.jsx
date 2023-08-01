@@ -7,6 +7,7 @@ import { Curriculum } from '../components/Content/Curriculum';
 import { Portfolio } from '../components/Content/Portfolio';
 import { Blog } from '../components/Content/Blog';
 import { Contact } from '../components/Content/Contact';
+import { Error } from '../components/Content/Error';
 
 export const RoutesPortfolio = () => {
     const [visible, setVisible] = useState(false);
@@ -68,6 +69,7 @@ export const RoutesPortfolio = () => {
                         <Route path='/portfolio' element={<Portfolio />} />
                         <Route path='/blog' element={<Blog />} />
                         <Route path='/contact' element={<Contact />} />
+                        <Route path='*' element={<Error />} />
                     </Routes>
                 </main>
             </div>
