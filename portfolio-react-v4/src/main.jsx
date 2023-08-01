@@ -10,7 +10,7 @@ import './assets/css/styles.css';
 import './assets/css/responsive.css';
 
 import ReactGA from 'react-ga4';
-ReactGA.initialize('G-J89BXXVYHW');
+ReactGA.initialize('G-QTQKG534WD');
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
