@@ -107,8 +107,8 @@ body {
 }
 
 .user-info__container-image::after {
-    /* Agrega un hige "after" el elemento */
-    content: 'hola';
+    /* Agrega un espacio "after" el elemento */
+    content: '';
     position: absolute;
     top: 5%;
     left: 9%;
