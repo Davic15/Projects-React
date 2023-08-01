@@ -43,7 +43,7 @@ export const About = () => {
                         <li className='personal-info__option'>
                             <span className='personal-info__title'>Email</span>
                             <span className='personal-info__value'>
-                                franklindavid [dot] maciasavellan [@] gmail
+                                franklindavid [dot] maciasavellan [at] gmail
                                 [dot] com
                             </span>
                         </li>
@@ -52,7 +52,7 @@ export const About = () => {
                                 Cellphone
                             </span>
                             <span className='personal-info__value'>
-                                +393792742621
+                                +39 379 274 2621
                             </span>
                         </li>
                     </ul>

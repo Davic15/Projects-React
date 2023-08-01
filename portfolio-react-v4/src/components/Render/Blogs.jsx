@@ -5,7 +5,11 @@ export const Blogs = ({ blog }) => {
         <article className='articles__article'>
             <div className='article__top'>
                 <div className='article__category'>{blog.category}</div>
-                <a href={blog.urlSite} className='article__image-link'>
+                <a
+                    href={blog.urlSite}
+                    className='article__image-link'
+                    target='_blank'
+                >
                     <div className='article__mask'>
                         <img
                             src={blog.urlImg}
