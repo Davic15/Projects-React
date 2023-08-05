@@ -28,7 +28,7 @@ export const jobs = [
         title: 'Software Engineer',
         company: 'Farmacias Santa Martha (Part time)',
         description: `I was in charge of maintaining and updating the sales, purchasing, billing and accounting system of the company's headquarters and its 80 points of sale.`,
-        date: 'Dec 2013 - Dec 2014',
+        date: 'Jan 2014 - Dec 2014',
     },
     {
         id: '05',
