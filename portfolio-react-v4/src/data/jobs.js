@@ -2,13 +2,21 @@ export const jobs = [
     {
         id: '00',
         title: 'Frontend Web Developer',
-        company: 'Freelancer',
+        company: 'Pagine Azzurre (Freelance)',
         description:
-            'Working for an Ecommerce, Italy based, that uses cryptocurrencies',
+            'Frontend Developer for an Italian Ecommerce that uses cryptocurrencies to carry out transactions.',
         date: 'Apr 2023 - Now',
     },
     {
         id: '01',
+        title: 'Frontend Web Developer',
+        company: 'Chocosfera (Freelance)',
+        description:
+            'Chocosfera is an Italian startup that offers blockchain-based services to adopt cacao trees.',
+        date: 'Apr 2023 - Now',
+    },
+    {
+        id: '02',
         title: 'Frontend Web Developer',
         company: 'Politecnico di Torino',
         description:
@@ -16,7 +24,7 @@ export const jobs = [
         date: 'Sep 2020 - Jan 2021',
     },
     {
-        id: '02',
+        id: '03',
         title: 'Android Developer',
         company: 'Politecnico di Torino',
         description:

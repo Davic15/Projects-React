@@ -1,5 +1,13 @@
 export const certifications = [
     {
+        id: 'UC-9b5b8192-7af6-44e3-bd9b-ae379e400bcb',
+        title: 'Udemy',
+        description:
+            'Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap.',
+        date: 'Jul 2023',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690391441/portfolio/certificate_vz7ncl.png',
+    },
+    {
         id: 'UC-0a56ea52-9796-4c8a-9fbe-8729c48475ca',
         title: 'Udemy',
         description: 'Understanding TypeScript - 2022 Edition.',

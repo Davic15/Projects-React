@@ -902,6 +902,7 @@ body {
     border-radius: 0.8rem;
     display: flex;
     flex-direction: row;
+    width: 98%;
 }
 
 .certificate__logo {

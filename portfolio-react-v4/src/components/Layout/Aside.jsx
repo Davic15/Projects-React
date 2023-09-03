@@ -57,7 +57,7 @@ export const Aside = ({ show }) => {
                 {/* Boton Curriculum */}
                 <div className='user-info__buttons'>
                     <a
-                        href='https://drive.google.com/file/d/1ncdzSpjZAfxt59Ad3kK0sFvTBMhZJ5hC/view?usp=sharing'
+                        href='https://drive.google.com/file/d/1oEQq2jyJbkf00LpHZf7vthjyHgwLMqx1/view?usp=sharing'
                         className='user-info__btn'
                         target='_blank'
                     >
