@@ -3,7 +3,7 @@ export const universities = [
         id: '00',
         institution: 'Politecnico di Torino (Italy)',
         degree: `Master's Degree`,
-        date: '2014 - Now',
+        date: '2014 - 2023',
         area: 'Computer Software Engineering',
     },
     {

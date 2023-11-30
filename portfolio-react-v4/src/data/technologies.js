@@ -53,4 +53,10 @@ export const technologies = [
     {
         title: 'MERN',
     },
+    {
+        title: 'Angular',
+    },
+    {
+        title: 'Angular CLI',
+    },
 ];
