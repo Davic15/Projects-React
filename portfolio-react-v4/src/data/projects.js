@@ -69,6 +69,7 @@ export const projects = [
         website: 'https://fastidious-kangaroo-df0707.netlify.app/',
         category: 'MERN',
     },
+
     {
         id: '07',
         title: 'Social Network (MERN)',
@@ -78,5 +79,15 @@ export const projects = [
         github: 'https://github.com/Davic15/fullstack-projects/tree/main/social-network',
         website: 'https://capable-pithivier-742774.netlify.app/',
         category: 'MERN',
+    },
+    {
+        id: '08',
+        title: 'Landing Page',
+        description:
+            'HTML, CSS, JavaScript and BEM.',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1705446107/portfolio/landing-page_k8aqcl.png',
+        github: 'https://github.com/Davic15/Master-en-CSS-Second-Part/tree/main/Section%2031%20-%20Proyecto%2002',
+        website: 'https://fantastic-haupia-72632e.netlify.app/',
+        category: 'Landing',
     },
 ];

@@ -5,14 +5,14 @@ export const certifications = [
         description:
             'Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap.',
         date: 'Jul 2023',
-        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690391441/portfolio/certificate_vz7ncl.png',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uwgs57x1mdqqs8cbe95m',
     },
     {
         id: 'UC-0a56ea52-9796-4c8a-9fbe-8729c48475ca',
         title: 'Udemy',
         description: 'Understanding TypeScript - 2022 Edition.',
         date: 'Sep 2022',
-        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690391441/portfolio/certificate_vz7ncl.png',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uwgs57x1mdqqs8cbe95m',
     },
     {
         id: 'UC-298ce002-cb30-49e3-9149-1bfa7e8d4354',
@@ -20,7 +20,7 @@ export const certifications = [
         description:
             'Master en React: Aprender ReactJS, Hooks, MERN, NodeJS, JWT+.',
         date: 'Jul 2022',
-        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690391441/portfolio/certificate_vz7ncl.png',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uwgs57x1mdqqs8cbe95m',
     },
     {
         id: 'UC-f9160960-85d4-4767-96a2-94bf4b8d5b59',
@@ -28,15 +28,14 @@ export const certifications = [
         description:
             'NodeJS - The complete Guide (MVC, REST APIs, GraphQL, Deno).',
         date: 'Apr 2022',
-        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690391441/portfolio/certificate_vz7ncl.png',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uwgs57x1mdqqs8cbe95m',
     },
     {
         id: 'u4veQZf6',
         title: 'Scrimba',
         description: 'The Frontend Developer Career Path.',
         date: 'Feb 2022',
-        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690401585/portfolio/scrimba_logo_icon_249668_gtvzh7.png',
-        url1: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690394356/portfolio/scrimba_esl3hz.svg',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/yx53lrd2xr1wrfwq28xx',
     },
     {
         id: 'QV3P39E2KFUJ',
@@ -44,6 +43,6 @@ export const certifications = [
         description:
             'Web Design for Everybody: Basics of Web Development & Coding Specialization.',
         date: 'Feb 2020',
-        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690395322/portfolio/coursera_wdpx0n.svg',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uror0lb32akhe1efbcnk',
     },
 ];
