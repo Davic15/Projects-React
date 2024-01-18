@@ -1,5 +1,45 @@
 export const certifications = [
     {
+        id: 'UC-16bfe615-8429-4427-a95a-6e7d08b0198f',
+        title: 'Udemy',
+        description:
+            'Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales',
+        date: 'Jan 2023',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uwgs57x1mdqqs8cbe95m',
+    },
+    {
+        id: 'UC-a6beb331-9e5a-4b1d-ab98-df5f796b2c89',
+        title: 'Scrimba',
+        description:
+            'The AI Engineer Path',
+        date: 'Jan 2023',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/yx53lrd2xr1wrfwq28xx',
+    },
+    {
+        id: 'UC-a6beb331-9e5a-4b1d-ab98-df5f796b2c89',
+        title: 'Udemy',
+        description:
+            'Angular - The Complete Guide (2023 Edition)',
+        date: 'Oct 2023',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uwgs57x1mdqqs8cbe95m',
+    },
+    {
+        id: 'UC-48f79807-94e7-4eaf-9699-820147fed6bc',
+        title: 'Udemy',
+        description:
+            'Curso de Angular 17 - Desde cero hasta profesional',
+        date: 'Sep 2023',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uwgs57x1mdqqs8cbe95m',
+    },
+    {
+        id: 'UC-4a612f08-0a20-4110-ae9f-c0cb833d99d1',
+        title: 'Udemy',
+        description:
+            'React Native - The Practical Guide (2023)',
+        date: 'Sep 2023',
+        url: 'https://res.cloudinary.com/dccsb07gm/image/upload/f_auto,q_auto/v1/portfolio/uwgs57x1mdqqs8cbe95m',
+    },
+    {
         id: 'UC-9b5b8192-7af6-44e3-bd9b-ae379e400bcb',
         title: 'Udemy',
         description:

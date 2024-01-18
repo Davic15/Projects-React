@@ -117,6 +117,14 @@ export const Curriculum = () => {
                         </div>
 
                         <article className='skills__title'>
+                            <h4 className='skills__text'>TypeScript</h4>
+                            <span className='skills__number'>50%</span>
+                        </article>
+                        <div className='skills__progressbar'>
+                            <div className='skills__percentage skills__percentage--p9'></div>
+                        </div>
+
+                        <article className='skills__title'>
                             <h4 className='skills__text'>React</h4>
                             <span className='skills__number'>70%</span>
                         </article>

@@ -11,13 +11,12 @@ export const About = () => {
             <section className='about__personal-info'>
                 <article className='personal-info__bio'>
                     <p className='personal-info__description'>
-                        A highly talented individual with good analytical skills
-                        desires to work as a Frontend Web Developer, where
-                        exceptional ability to accurately analyze complex
-                        business system problems and provide useful solutions
-                        will be needed. Bringing good knowledge of HTML, CSS,
-                        JavaScript and React.js business functions as well as
-                        knowledge of relevant programming and software tools.
+                        I am a very talented person with good analytical skills working as a Frontend Web Developer with
+                        several years of experience in the market.
+                        I bring with me relevant knowledge about different web technologies such as JavaScript,
+                        TypeScript, React and Angular, in addition to relevant software and programming tools.
+                        I like challenges that is why I am motivated to learn new technologies and tools in the field of
+                        web development. For now I am practicing AI for Web Developers, Web3 and Crypto.
                     </p>
                 </article>
                 <div className='personal-info__data'>
@@ -127,7 +126,7 @@ export const About = () => {
                             <p className='service__description'>
                                 I also collaborate with freelance projects of
                                 any kind related to Frontend technologies such
-                                as HTML, CSS, JavaScript and React.
+                                as JavaScript, TypeScript, React and Angular.
                             </p>
                         </div>
                     </article>
