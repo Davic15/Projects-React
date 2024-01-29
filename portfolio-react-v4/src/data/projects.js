@@ -56,48 +56,38 @@ export const projects = [
         description:
             'HTML, CSS, JavaScript, React.js, Redux (toolkit) and Rest API.',
         imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706553706/portfolio/cryptoverse_s5ktgn.png',
-        github: 'https://github.com/Davic15/Projects-React/tree/main/online-shop',
+        github: 'https://github.com/Davic15/Projects-React/tree/main/crypto-app',
         website: 'https://precious-jalebi-1e391b.netlify.app/',
         category: 'React + Redux',
     },
     {
-        id: '02',
-        title: 'Blog (MERN)',
+        id: '06',
+        title: 'My Blog',
         description:
             'MongoDB, Express, React, Node, Netlify (backend and frontend deployed).',
-        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690466625/7_oujlhq.png',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706554245/portfolio/blog_jzt4fx.png',
         github: 'https://github.com/Davic15/fullstack-projects/tree/main/blog',
         website: 'https://fastidious-kangaroo-df0707.netlify.app/',
-        category: 'React + Redux',
+        category: 'MERN Stack',
     },
     {
-        id: '03',
-        title: 'Social Network (MERN)',
+        id: '07',
+        title: 'Social Network',
         description:
             'MongoDB, Express, React, Node, Netlify (backend and frontend deployed).',
-        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690466888/8_raqt44.png',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706554749/portfolio/reactsocial_hgwcgv.png',
         github: 'https://github.com/Davic15/fullstack-projects/tree/main/social-network',
         website: 'https://capable-pithivier-742774.netlify.app/',
         category: 'MERN Stack',
     },
     {
-        id: '04',
+        id: '08',
         title: 'Rest Country API',
         description:
             'HTML, CSS, JavaScript, React.js, Redux (toolkit), Rest API (restcountries).',
-        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690466487/6_yfvxzl.png',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706554871/portfolio/countries_ng9ljw.png',
         github: 'https://github.com/Davic15/frontendmentor/tree/main/rest-countries-api',
         website: 'https://earnest-blini-cb1afa.netlify.app/',
         category: 'React + Redux',
-    },
-    {
-        id: '05',
-        title: '100 Angular Challenges',
-        description:
-            'Angular, Angular CLI and TypeScript.',
-        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1705614649/portfolio/100AngularChallenges_gdmz0a.png',
-        github: 'https://github.com/Davic15/angular-challenges',
-        website: 'https://gleeful-starlight-9874a0.netlify.app/',
-        category: 'Angular (Misc)',
     },
 ];
