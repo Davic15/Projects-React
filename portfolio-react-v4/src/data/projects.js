@@ -1,22 +1,63 @@
 export const projects = [
     {
         id: '00',
-        title: 'Landing Page',
+        title: 'Develop.',
         description:
             'HTML, CSS, JavaScript and BEM.',
-        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1705446107/portfolio/landing-page_k8aqcl.png',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706553541/portfolio/develop_x8e33t.png',
         github: 'https://github.com/Davic15/Master-en-CSS-Second-Part/tree/main/Section%2031%20-%20Proyecto%2002',
         website: 'https://fantastic-haupia-72632e.netlify.app/',
         category: 'Landing Page',
     },
     {
         id: '01',
-        title: 'Online Shop (MERN)',
+        title: 'Gamer',
         description:
-            'HTML, CSS, JavaScript, React.js, Redux (toolkit), Express.js, Node.js, Rest API.',
-        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1690466390/5_abpjkf.png',
+            'HTML, CSS, JavaScript and BEM.',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706553473/portfolio/gamer_ouyqy8.png',
+        github: 'https://github.com/Davic15/Master-en-CSS-Second-Part/tree/main/Section%2047%20-%20Proyecto%203',
+        website: 'https://celebrated-squirrel-43a873.netlify.app/',
+        category: 'Landing Page',
+    },
+    {
+        id: '02',
+        title: 'HooBank',
+        description:
+            'HTML, CSS, JavaScript, React and Tailwind.',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706553323/portfolio/Hoobank_ovkcbe.png',
+        github: 'https://github.com/Davic15/Projects-React/tree/main/bank-modern-app',
+        website: 'https://beautiful-zuccutto-c9e80c.netlify.app/',
+        category: 'Landing Page',
+    },
+    {
+        id: '03',
+        title: 'Sushiman',
+        description:
+            'HTML, CSS, TypeScript and Angular.',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706553257/portfolio/sushiman_imvm9j.png',
+        github: 'https://github.com/Davic15/angular-projects/tree/main/sushi-landing-page',
+        website: 'https://dancing-pie-c6fc42.netlify.app/',
+        category: 'Landing Page',
+    },
+
+    {
+        id: '04',
+        title: 'Golds Gym',
+        description:
+            'HTML, CSS, JavaScript, React.js and Rest API.',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706553142/portfolio/goldsgym_hs89zw.png',
+        github: 'https://github.com/Davic15/Projects-React/tree/main/gym-exercises',
+        website: 'https://super-blancmange-12d70b.netlify.app/',
+        category: 'React',
+    },
+    {
+        id: '05',
+        title: 'Cryptoverse',
+        description:
+            'HTML, CSS, JavaScript, React.js, Redux (toolkit) and Rest API.',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706553706/portfolio/cryptoverse_s5ktgn.png',
         github: 'https://github.com/Davic15/Projects-React/tree/main/online-shop',
-        website: 'https://resplendent-souffle-6e7f71.netlify.app/',
+        website: 'https://precious-jalebi-1e391b.netlify.app/',
         category: 'React + Redux',
     },
     {
