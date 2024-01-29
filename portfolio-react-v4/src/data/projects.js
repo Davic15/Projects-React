@@ -62,6 +62,16 @@ export const projects = [
     },
     {
         id: '06',
+        title: 'Rest Country API',
+        description:
+            'HTML, CSS, JavaScript, React.js, Redux (toolkit), Rest API (restcountries).',
+        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706554871/portfolio/countries_ng9ljw.png',
+        github: 'https://github.com/Davic15/frontendmentor/tree/main/rest-countries-api',
+        website: 'https://earnest-blini-cb1afa.netlify.app/',
+        category: 'React + Redux',
+    },
+    {
+        id: '07',
         title: 'My Blog',
         description:
             'MongoDB, Express, React, Node, Netlify (backend and frontend deployed).',
@@ -71,7 +81,7 @@ export const projects = [
         category: 'MERN Stack',
     },
     {
-        id: '07',
+        id: '08',
         title: 'Social Network',
         description:
             'MongoDB, Express, React, Node, Netlify (backend and frontend deployed).',
@@ -79,15 +89,5 @@ export const projects = [
         github: 'https://github.com/Davic15/fullstack-projects/tree/main/social-network',
         website: 'https://capable-pithivier-742774.netlify.app/',
         category: 'MERN Stack',
-    },
-    {
-        id: '08',
-        title: 'Rest Country API',
-        description:
-            'HTML, CSS, JavaScript, React.js, Redux (toolkit), Rest API (restcountries).',
-        imgUrl: 'https://res.cloudinary.com/dccsb07gm/image/upload/v1706554871/portfolio/countries_ng9ljw.png',
-        github: 'https://github.com/Davic15/frontendmentor/tree/main/rest-countries-api',
-        website: 'https://earnest-blini-cb1afa.netlify.app/',
-        category: 'React + Redux',
     },
 ];
