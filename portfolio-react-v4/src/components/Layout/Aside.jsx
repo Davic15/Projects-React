@@ -28,7 +28,7 @@ export const Aside = ({show}) => {
                             </a>
                         </li>
                         <li className='social__option'>
-                            <a href='https://www.linkedin.com/in/franklin-david-macias-avellan-704030188/'
+                            <a href='https://www.linkedin.com/in/franklin-david-macias-avellan/'
                                className='social__link' target='_blank'>
                                 <i className='social__icon fa-brands fa-linkedin'></i>
                             </a>
