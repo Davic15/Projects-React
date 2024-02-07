@@ -1,0 +1,25 @@
+.layout__uploader {
+    margin: 25px 120px;
+}
+
+.uploader__file {
+    display: flex;
+    justify-content: center;
+}
+
+.guZdik {
+    border: 2px dashed var(--color-secondary) !important;
+    color: var(--color-secondary) !important;
+    min-width: 400px !important;
+    max-width: 1024px !important;
+    min-height: 200px !important;
+}
+
+span.sc-fqkvVR.kFhUBM {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+
+span.file-types {
+    font-size: 1.5rem !important;
+}
