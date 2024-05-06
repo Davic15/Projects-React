@@ -3,24 +3,21 @@ export const jobs = [
         id: '00',
         title: 'Frontend Web Developer',
         company: 'GunPowder (Freelance - Remote)',
-        description:
-            'Frontend Web Developer with Angular.',
+        description: 'Frontend Web Developer with Angular.',
         date: 'Oct 2023 - Now',
     },
     {
         id: '01',
         title: 'Frontend Web Developer',
         company: 'Chocosfera (Freelance - Remote)',
-        description:
-            'Frontend Web Developer with Next.js.',
+        description: 'Frontend Web Developer with React.js.',
         date: 'Apr 2023 - Now',
     },
     {
         id: '02',
         title: 'Frontend Web Developer',
         company: 'Pagine Azzurre (Freelance - Remote)',
-        description:
-            'Frontend Web Developer with React.',
+        description: 'Frontend Web Developer with React.',
         date: 'Apr 2023 - Ago 2023',
     },
 
@@ -28,16 +25,14 @@ export const jobs = [
         id: '03',
         title: 'Frontend Web Developer',
         company: 'Politecnico di Torino',
-        description:
-            'Frontend Web Developer with React.',
+        description: 'Frontend Web Developer with React.',
         date: 'Sep 2020 - Jan 2021',
     },
     {
         id: '04',
         title: 'Software Engineer',
         company: 'Politecnico di Torino',
-        description:
-            'Android Developer.',
+        description: 'Android Developer.',
         date: 'Mar 2018 - Jun 2018',
     },
     {
