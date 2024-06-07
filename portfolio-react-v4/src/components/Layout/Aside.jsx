@@ -9,7 +9,7 @@ export const Aside = ({show}) => {
                 <div className='user-info__general'>
                     <div className='user-info__container-image'>
                         <img
-                            src='https://res.cloudinary.com/dccsb07gm/image/upload/v1706556423/portfolio/profile_wapj0u.jpg'
+                            src='https://res.cloudinary.com/dccsb07gm/image/upload/v1685831180/portfolio/dev-frank-new-crop_u9bptb.png'
                             alt='perfil de usuario'
                             className='user-info__image'
                         />
