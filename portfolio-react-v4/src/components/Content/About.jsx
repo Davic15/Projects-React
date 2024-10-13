@@ -23,20 +23,20 @@ export const About = () => {
                     <ul className='personal-info__list'>
                         <li className='personal-info__option'>
                             <span className='personal-info__title'>Age</span>
-                            <span className='personal-info__value'>35</span>
+                            <span className='personal-info__value'>36</span>
                         </li>
                         <li className='personal-info__option'>
                             <span className='personal-info__title'>
                                 Country
                             </span>
-                            <span className='personal-info__value'>Italy</span>
+                            <span className='personal-info__value'>Egypt</span>
                         </li>
                         <li className='personal-info__option'>
                             <span className='personal-info__title'>
                                 Address
                             </span>
                             <span className='personal-info__value'>
-                                Via XXV Aprile 8
+                                Heliopolis
                             </span>
                         </li>
                         <li className='personal-info__option'>

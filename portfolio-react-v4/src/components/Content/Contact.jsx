@@ -41,7 +41,7 @@ export const Contact = () => {
                 <section className='contact__info'>
                     <div className='contact__data'>
                         <i className='contact__icon fa-solid fa-location-dot'></i>
-                        <h2 className='contact__subtitle'>Italy</h2>
+                        <h2 className='contact__subtitle'>Egypt</h2>
                     </div>
 
                     <div className='contact__data'>
@@ -70,7 +70,7 @@ export const Contact = () => {
                         <iframe
                             className='contact__iframe'
                             frameBorder='0'
-                            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47213.42934115408!2d12.396625409139231!3d42.3032935573339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f3d7fe2516dc1%3A0x4094f9ab239b000!2s01033%20Civita%20Castellana%2C%20VT!5e0!3m2!1sen!2sit!4v1690471080962!5m2!1sen!2sit'
+                            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27610.935230914754!2d31.323251133119815!3d30.112312942900466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815dcc3e4e599%3A0x6c67c22e4aa39206!2sHeliopolis%2C%20Al%20Matar%2C%20El%20Nozha%2C%20Cairo%20Governorate%204470351!5e0!3m2!1sen!2seg!4v1728848310570!5m2!1sen!2seg'
                             loading='lazy'
                             referrerPolicy='no-referrer-when-downgrade'
                         ></iframe>

@@ -70,7 +70,7 @@ export const projects = [
         website: 'https://earnest-blini-cb1afa.netlify.app/',
         category: 'React + Redux',
     },
-    {
+/*    {
         id: '07',
         title: 'My Blog',
         description:
@@ -89,5 +89,5 @@ export const projects = [
         github: 'https://github.com/Davic15/fullstack-projects/tree/main/social-network',
         website: 'https://capable-pithivier-742774.netlify.app/',
         category: 'MERN Stack',
-    },
+    },*/
 ];
