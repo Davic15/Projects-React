@@ -9,7 +9,7 @@ export const Aside = ({show}) => {
                 <div className='user-info__general'>
                     <div className='user-info__container-image'>
                         <img
-                            src='https://res.cloudinary.com/dccsb07gm/image/upload/v1685831180/portfolio/dev-frank-new-crop_u9bptb.png'
+                            src='https://res.cloudinary.com/dccsb07gm/image/upload/v1735896713/portfolio/m6owqlcvaxplc4zwpy2j.jpg'
                             alt='perfil de usuario'
                             className='user-info__image'
                         />
@@ -33,18 +33,12 @@ export const Aside = ({show}) => {
                                 <i className='social__icon fa-brands fa-linkedin'></i>
                             </a>
                         </li>
-                        <li className='social__option'>
-                            <a href='https://www.facebook.com/franklin.maciasavellan' className='social__link'
-                               target='_blank'>
-                                <i className='social__icon fa-brands fa-facebook'></i>
-                            </a>
-                        </li>
                     </ul>
                 </div>
 
                 {/* CV Download */}
                 <div className='user-info__buttons'>
-                    <a href='https://drive.google.com/file/d/1nm1NIqqyw84hJfk8IeAkpFH_3iQraV9k/view?usp=sharing'
+                    <a href='https://drive.google.com/file/d/1eoKK_rCo3uUZ4rLBbPpIeRj0ts8lP5VQ/view?usp=sharing'
                        className='user-info__btn' target='_blank'>
                         Download CV
                     </a>
@@ -52,7 +46,7 @@ export const Aside = ({show}) => {
 
                 {/*  Footer */}
                 <footer className='user-info__footer'>
-                    &copy; 2024 Franklin Macias.
+                    &copy; 2025 Franklin Macias.
                 </footer>
             </section>
         </aside>

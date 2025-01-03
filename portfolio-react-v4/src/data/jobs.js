@@ -4,7 +4,7 @@ export const jobs = [
         title: 'Software Engineer',
         company: 'Grupo KFC Ecuador (Freelance - Remote)',
         description: 'Microsoft Technologies (PowerApps, PowerAutomate, etc).',
-        date: 'Jul 2024 - Present',
+        date: 'Jul 2024 - Dec 2024',
     },
     {
         id: '01',

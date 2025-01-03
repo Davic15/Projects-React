@@ -11,12 +11,9 @@ export const About = () => {
             <section className='about__personal-info'>
                 <article className='personal-info__bio'>
                     <p className='personal-info__description'>
-                        I am a very talented person with good analytical skills working as a Frontend Web Developer with
-                        several years of experience in the market.
-                        I bring with me relevant knowledge about different web technologies such as JavaScript,
-                        TypeScript, React and Angular, in addition to relevant software and programming tools.
-                        I like challenges that is why I am motivated to learn new technologies and tools in the field of
-                        web development. For now I am practicing AI for Web Developers, Web3 and Crypto.
+                    Passionate Web Developer and Software Engineer with years of experience, specializing in frontend technologies like React and Angular, 
+                    and Microsoft technologies like SharePoint. Eager to explore emerging fields like Web 3, blockchain, crypto, and AI to push the boundaries of 
+                    digital experiences. Committed to delivering impactful, user-friendly, and innovative solutions that exceed expectations.
                     </p>
                 </article>
                 <div className='personal-info__data'>
