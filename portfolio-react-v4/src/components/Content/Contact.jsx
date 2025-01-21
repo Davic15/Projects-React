@@ -41,12 +41,12 @@ export const Contact = () => {
                 <section className='contact__info'>
                     <div className='contact__data'>
                         <i className='contact__icon fa-solid fa-location-dot'></i>
-                        <h2 className='contact__subtitle'>Egypt</h2>
+                        <h2 className='contact__subtitle'>Ecuador</h2>
                     </div>
 
                     <div className='contact__data'>
                         <i className='contact__icon fa-solid fa-phone'></i>
-                        <h2 className='contact__subtitle'>+39 379 2742621</h2>
+                        <h2 className='contact__subtitle'>+593 96 321 6853</h2>
                     </div>
 
                     <div className='contact__data'>
@@ -70,7 +70,7 @@ export const Contact = () => {
                         <iframe
                             className='contact__iframe'
                             frameBorder='0'
-                            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27610.935230914754!2d31.323251133119815!3d30.112312942900466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815dcc3e4e599%3A0x6c67c22e4aa39206!2sHeliopolis%2C%20Al%20Matar%2C%20El%20Nozha%2C%20Cairo%20Governorate%204470351!5e0!3m2!1sen!2seg!4v1728848310570!5m2!1sen!2seg'
+                            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63827.978363745475!2d-80.75071426372222!3d-0.9682308293379936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902be6a9e440988b%3A0x9403b825a96f98ba!2sManta!5e0!3m2!1sen!2sec!4v1737482036669!5m2!1sen!2sec" width="600" height="450" style="border:0;'
                             loading='lazy'
                             referrerPolicy='no-referrer-when-downgrade'
                         ></iframe>

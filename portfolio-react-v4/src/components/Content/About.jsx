@@ -26,14 +26,14 @@ export const About = () => {
                             <span className='personal-info__title'>
                                 Country
                             </span>
-                            <span className='personal-info__value'>Egypt</span>
+                            <span className='personal-info__value'>Ecuador</span>
                         </li>
                         <li className='personal-info__option'>
                             <span className='personal-info__title'>
                                 Address
                             </span>
                             <span className='personal-info__value'>
-                                Heliopolis
+                                Manta
                             </span>
                         </li>
                         <li className='personal-info__option'>
@@ -48,7 +48,7 @@ export const About = () => {
                                 Cellphone
                             </span>
                             <span className='personal-info__value'>
-                                +39 379 274 2621
+                                +593 96 321 6853
                             </span>
                         </li>
                     </ul>

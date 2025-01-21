@@ -38,7 +38,7 @@ export const Aside = ({show}) => {
 
                 {/* CV Download */}
                 <div className='user-info__buttons'>
-                    <a href='https://drive.google.com/file/d/1eoKK_rCo3uUZ4rLBbPpIeRj0ts8lP5VQ/view?usp=sharing'
+                    <a href='https://drive.google.com/file/d/1jyZH8V6CMYbSmpDsqrf_hQ1uRrMMHXo0/view?usp=sharing'
                        className='user-info__btn' target='_blank'>
                         Download CV
                     </a>
