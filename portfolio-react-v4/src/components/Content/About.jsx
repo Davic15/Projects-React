@@ -20,7 +20,7 @@ export const About = () => {
                     <ul className='personal-info__list'>
                         <li className='personal-info__option'>
                             <span className='personal-info__title'>Age</span>
-                            <span className='personal-info__value'>36</span>
+                            <span className='personal-info__value'>37</span>
                         </li>
                         <li className='personal-info__option'>
                             <span className='personal-info__title'>
