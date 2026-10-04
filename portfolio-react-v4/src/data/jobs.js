@@ -2,13 +2,13 @@ export const jobs = [
     {
         id: '00',
         title: 'Front-End & UI Delivery Specialist',
-        company: 'e2f (Freelance - Remote)',
+        company: 'TrustScale (Freelance - Remote)',
         description: 'Front-End with SurveyJS, training LLMs.',
         date: 'Jun 2025 - Present',
     },
     {
         id: '01',
-        title: 'Frontend Web Developer',
+        title: 'Independent Software Consultant',
         company: 'Online (Freelance - Remote)',
         description: 'Frontend Web Developer with React, Angular, JavaScript and TypeScript.',
         date: 'Jan 2025 - Jun 2025',
